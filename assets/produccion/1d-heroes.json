@@ -1,0 +1,98 @@
+{
+  "paso": "1D - los 8 heroes candidatos",
+  "estado": "ESPECIFICADO, NO EJECUTADO",
+  "bloqueo_tecnico": "El MCP de Higgsfield no esta conectado en esta sesion; ningun MCP disponible (Canva, Google Drive, GitHub, Claude Code Remote) hace generacion fotorrealista.",
+  "bloqueo_de_insumo": "Los heroes 4, 5, 7 y 8 son del LOCAL (fachada, salon, terraza, barra) y no tenemos ni una foto del local. Generarlos desde cero seria inventarse el restaurante: se marcan como bloqueados hasta que el dueno entregue fotos.",
+  "formato": {"relacion_aspecto": "16:9", "resolucion": "2560x1440 minimo", "entrega": "grilla numerada 1-8"},
+
+  "nota_de_traduccion": "Los 8 conceptos del brief describen una fuente de soda chileno-alemana (lomito, schop, chucrut, garzones, quitasoles, chef mascota). Aqui cada concepto se conserva en su intencion visual pero traducido a Crepes & Waffles, segun la REGLA DE ORO. El texto literal del brief queda guardado en el campo 'brief_literal' de cada hero por si el dueno prefiere la version B.",
+
+  "heroes": [
+    {
+      "n": 1,
+      "titulo": "Macro del crepe estrella",
+      "brief_literal": "Macro del lomito estrella, vapor subiendo, schop desenfocado detras.",
+      "insumo_real": "assets/reales/plato-sombrero-vueltiao.png",
+      "operacion": "image-to-image",
+      "riesgo_de_invencion": "bajo",
+      "prompt": "Extreme close-up macro of the Sombrero Vueltiao crepe from the source photo: shredded beef in hogao over ripe plantain puree, sour cream, avocado slices and pico de gallo, wrapped in a golden blistered crepe. Faint steam rising off the surface. Shallow depth of field, 100mm macro look, warm daylight from the left, a blurred glass of mango juice in the background. Plating strictly faithful to the source. 16:9 crop, editorial magazine quality.",
+      "negativo": "added ingredients, extra garnish, beer, schop, dark wood table, neon colors, fake gloss, text, watermark, logo"
+    },
+    {
+      "n": 2,
+      "titulo": "Mesa compartida en pleno festin",
+      "brief_literal": "Mesa compartida en pleno festin: manos, schops chocando, platos cruzandose.",
+      "insumo_real": "montaje sobre assets/reales/plato-*.png (varios platos reales)",
+      "operacion": "image-to-image compuesto",
+      "riesgo_de_invencion": "medio: aparecen manos y una mesa que no existen en ninguna foto real",
+      "prompt": "Overhead shot of a shared table mid-meal at Crepes & Waffles: several real dishes crossing over each other (savoury crepes, a waffle, a salad, an acai bowl), two glasses of fruit juice being clinked, hands reaching in. Warm daylight, plain warm-toned table, honest portions, natural saturation, motion feel but sharp on the food. 16:9 crop, editorial magazine quality.",
+      "negativo": "beer, schop, dark wood beer-hall table, coasters, invented dishes, added ingredients, faces, neon colors, text, watermark, logo"
+    },
+    {
+      "n": 3,
+      "titulo": "El jugo de la casa",
+      "brief_literal": "Un schop helado de 500cc, condensacion, barra de madera de fondo.",
+      "insumo_real": "assets/reales/plato-jugo-de-mango.png",
+      "operacion": "image-to-image",
+      "riesgo_de_invencion": "bajo",
+      "prompt": "Hero shot of the tall faceted glass of mango juice from the source photo, condensation beading down the glass, crushed fruit visible at the rim. Side light from the left, background softly blurred into a warm restaurant interior. Same glass, same drink, same colour as the source. 16:9 crop, high detail, editorial magazine quality.",
+      "negativo": "beer, schop, foam head, dark wood bar, added garnish, straw, neon colors, text, watermark, logo"
+    },
+    {
+      "n": 4,
+      "titulo": "Fachada nocturna",
+      "brief_literal": "Fachada nocturna, luz calida saliendo, siluetas adentro.",
+      "insumo_real": null,
+      "estado": "BLOQUEADO: falta foto de la fachada",
+      "operacion": "image-to-image sobre la foto de fachada + reiluminacion nocturna",
+      "riesgo_de_invencion": "alto sin foto: habria que inventar el local y redibujar el letrero",
+      "prompt": "Night exterior of the real storefront from the source photo, warm light spilling onto the sidewalk, silhouettes of diners visible through the glass, blue-hour sky, wet asphalt reflecting the warm light. Keep the ORIGINAL sign and facade untouched and sharp. 16:9 crop, editorial magazine quality.",
+      "negativo": "redrawn logo, altered signage, new text, different lettering, invented building, cartoon, watermark"
+    },
+    {
+      "n": 5,
+      "titulo": "Salon en movimiento",
+      "brief_literal": "Interior amplio: vigas de madera, el chef mascota vintage, garzones en movimiento.",
+      "insumo_real": null,
+      "estado": "BLOQUEADO: falta foto del interior",
+      "operacion": "image-to-image sobre foto real del salon",
+      "riesgo_de_invencion": "alto sin foto",
+      "nota_de_identidad": "Crepes & Waffles no tiene chef mascota vintage ni garzones: su seña de identidad es el equipo de meseras. El hero debe apoyarse en eso, no en una mascota inventada.",
+      "prompt": "Wide interior of the real dining room from the source photo, warm evening light, tables full, a waitress moving through frame with a slight motion blur while the room stays sharp. Documentary feel, natural colour. 16:9 crop, editorial magazine quality.",
+      "negativo": "invented mascot, vintage chef character, beer hall, schoperas, redrawn logo, faces in focus, cartoon, watermark"
+    },
+    {
+      "n": 6,
+      "titulo": "Corte transversal del crepe",
+      "brief_literal": "Corte transversal del lomito: capas de carne, chucrut, mayo, pan crujiente.",
+      "insumo_real": "assets/reales/plato-cochinita-pibil.png",
+      "operacion": "image-to-image",
+      "riesgo_de_invencion": "medio: el corte transversal no existe en la foto original",
+      "prompt": "Cross-section close-up of the Cochinita Pibil crepe from the source photo, cut open to show the layers: shredded citrus pork, pico de gallo, pickled red onion, sour cream and avocado inside a thin golden crepe. Side light from the left, shallow depth of field, warm neutral background. Only the ingredients present in the source dish. 16:9 crop, high detail, editorial magazine quality.",
+      "negativo": "sauerkraut, mayonnaise, bread, sandwich, added ingredients, beer, neon colors, text, watermark, logo"
+    },
+    {
+      "n": 7,
+      "titulo": "Terraza de dia en Medellin",
+      "brief_literal": "Terraza de dia: quitasoles, mesas llenas, vida de barrio del sector oriente.",
+      "insumo_real": null,
+      "estado": "BLOQUEADO: falta foto de la terraza",
+      "operacion": "image-to-image sobre foto real de la terraza",
+      "riesgo_de_invencion": "alto sin foto",
+      "prompt": "Daytime terrace of the real venue from the source photo, parasols open, tables full, dappled sunlight through trees, Medellin street life softly blurred behind. Natural colour, documentary feel. 16:9 crop, editorial magazine quality.",
+      "negativo": "invented venue, redrawn logo, beer, schop, faces in focus, cartoon, watermark"
+    },
+    {
+      "n": 8,
+      "titulo": "La barra de helados",
+      "brief_literal": "La barra historica: schoperas, madera pulida por 50 anos, garzon sirviendo.",
+      "insumo_real": null,
+      "estado": "BLOQUEADO: falta foto de la barra",
+      "operacion": "image-to-image sobre foto real de la barra",
+      "riesgo_de_invencion": "alto sin foto",
+      "nota_de_identidad": "El equivalente real de 'la barra historica' en Crepes & Waffles es la barra de helados, no una barra de cerveza.",
+      "prompt": "The real ice-cream counter from the source photo: open wells of gelato in their brand flavours, a waitress scooping into a glass coupe, warm overhead light, guests softly blurred in the background. Natural colour, documentary feel. 16:9 crop, editorial magazine quality.",
+      "negativo": "beer taps, schoperas, beer hall, invented venue, redrawn logo, cartoon, watermark"
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "fuente": "Fotografia oficial de Crepes & Waffles extraida de la carta PDF vigente. No hay banco de fotos propio del local: estas son las unicas fotos reales disponibles hoy.",
+  "estilo_original": "Cenital, plato blanco de borde fino, fondo liso beige/terracota, luz difusa de estudio, sin props. Bebidas: vaso de vidrio facetado sobre fondo hueso, luz lateral suave.",
+  "bodegones": [
+    {
+      "archivo": "assets/reales/p1-bodegon-desayunos.jpeg",
+      "pagina_pdf": 1,
+      "ancho": 2850,
+      "alto": 4276,
+      "platos": [
+        "huevos-australianos",
+        "crepe-jamon-y-queso",
+        "pancakes-de-ahuyama",
+        "acai-bowl"
+      ]
+    },
+    {
+      "archivo": "assets/reales/p2-bodegon-entradas-y-sopas.jpeg",
+      "pagina_pdf": 2,
+      "ancho": 4578,
+      "alto": 5624,
+      "platos": [
+        "sopa-mexicana-con-pollo",
+        "sopa-covarachia",
+        "ensalada-de-la-barra"
+      ]
+    },
+    {
+      "archivo": "assets/reales/p3-bodegon-crepes-y-waffles-de-sal.jpeg",
+      "pagina_pdf": 3,
+      "ancho": 3420,
+      "alto": 4502,
+      "platos": [
+        "salmon-roll",
+        "pollo-rosarito",
+        "sombrero-vueltiao",
+        "cochinita-pibil",
+        "mar-encocado"
+      ]
+    },
+    {
+      "archivo": "assets/reales/p4-bodegon-pitas-y-panne-cook.jpeg",
+      "pagina_pdf": 4,
+      "ancho": 4167,
+      "alto": 2778,
+      "platos": [
+        "panne-cook-de-camarones",
+        "panne-cook-de-pollo-al-curry",
+        "pita-vegetariana",
+        "pita-siciliana"
+      ]
+    },
+    {
+      "archivo": "assets/reales/p5-bodegon-ensaladas.jpeg",
+      "pagina_pdf": 5,
+      "ancho": 3869,
+      "alto": 2569,
+      "platos": [
+        "ensalada-marroqui-con-camarones",
+        "ensalada-torina",
+        "ensalada-cesar-con-salmon",
+        "ensalada-florentina"
+      ]
+    },
+    {
+      "archivo": "assets/reales/p6-bodegon-bebidas.jpeg",
+      "pagina_pdf": 6,
+      "ancho": 2107,
+      "alto": 3160,
+      "platos": [
+        "limonada-hierbabuena",
+        "jugo-de-fresa",
+        "jugo-de-guanabana",
+        "jugo-de-mandarina",
+        "jugo-de-mango"
+      ]
+    }
+  ],
+  "platos": [
+    {
+      "id": "huevos-australianos",
+      "rotulo_en_carta": "Huevos Australianos",
+      "archivo": "assets/reales/plato-huevos-australianos.png",
+      "ancho": 2445,
+      "alto": 2689,
+      "pagina_pdf": 1,
+      "recorte_pt": [
+        0,
+        0,
+        800,
+        880
+      ],
+      "item_carta": "HUEVOS/australianos",
+      "precio": "$29.800"
+    },
+    {
+      "id": "crepe-jamon-y-queso",
+      "rotulo_en_carta": "Crepe Jamón y Queso",
+      "archivo": "assets/reales/plato-crepe-jamon-y-queso.png",
+      "ancho": 1467,
+      "alto": 2140,
+      "pagina_pdf": 1,
+      "recorte_pt": [
+        600,
+        550,
+        1080,
+        1250
+      ],
+      "item_carta": "CREPES/jamon-y-queso",
+      "precio": "$19.900"
+    },
+    {
+      "id": "pancakes-de-ahuyama",
+      "rotulo_en_carta": "Pancakes de Ahuyama",
+      "archivo": "assets/reales/plato-pancakes-de-ahuyama.png",
+      "ancho": 1666,
+      "alto": 2934,
+      "pagina_pdf": 1,
+      "recorte_pt": [
+        0,
+        560,
+        545,
+        1520
+      ],
+      "item_carta": "+ OPCIONES/pancakes-de-ahuyama",
+      "precio": "$18.900"
+    },
+    {
+      "id": "acai-bowl",
+      "rotulo_en_carta": "Açaí Bowl",
+      "archivo": "assets/reales/plato-acai-bowl.png",
+      "ancho": 2170,
+      "alto": 2385,
+      "pagina_pdf": 1,
+      "recorte_pt": [
+        295,
+        1220,
+        1005,
+        2000
+      ],
+      "item_carta": "+ OPCIONES/acai-bowl",
+      "precio": "$21.900"
+    },
+    {
+      "id": "sopa-mexicana-con-pollo",
+      "rotulo_en_carta": "Sopa Mexicana con Pollo",
+      "archivo": "assets/reales/plato-sopa-mexicana-con-pollo.png",
+      "ancho": 2720,
+      "alto": 2888,
+      "pagina_pdf": 2,
+      "recorte_pt": [
+        0,
+        95,
+        890,
+        1040
+      ],
+      "item_carta": "SOPAS/mexicana-con-pollo",
+      "precio": "$20.500"
+    },
+    {
+      "id": "sopa-covarachia",
+      "rotulo_en_carta": "Sopa Covarachía",
+      "archivo": "assets/reales/plato-sopa-covarachia.png",
+      "ancho": 1360,
+      "alto": 2185,
+      "pagina_pdf": 2,
+      "recorte_pt": [
+        635,
+        955,
+        1080,
+        1670
+      ],
+      "item_carta": "SOPAS/covarachia",
+      "precio": "$15.900"
+    },
+    {
+      "id": "ensalada-de-la-barra",
+      "rotulo_en_carta": "Ensalada de la Barra",
+      "archivo": "assets/reales/plato-ensalada-de-la-barra.png",
+      "ancho": 1773,
+      "alto": 1636,
+      "pagina_pdf": 2,
+      "recorte_pt": [
+        0,
+        1285,
+        580,
+        1820
+      ],
+      "item_carta": "ENTRADAS/ensalada-de-la-barra",
+      "precio": "$18.900"
+    },
+    {
+      "id": "salmon-roll",
+      "rotulo_en_carta": "Salmon Roll",
+      "archivo": "assets/reales/plato-salmon-roll.png",
+      "ancho": 2446,
+      "alto": 1437,
+      "pagina_pdf": 3,
+      "recorte_pt": [
+        215,
+        0,
+        1015,
+        470
+      ],
+      "item_carta": "CREPES DE MAR/salmon-roll",
+      "precio": "$42.500"
+    },
+    {
+      "id": "pollo-rosarito",
+      "rotulo_en_carta": "Pollo Rosarito",
+      "archivo": "assets/reales/plato-pollo-rosarito.png",
+      "ancho": 1467,
+      "alto": 1788,
+      "pagina_pdf": 3,
+      "recorte_pt": [
+        0,
+        415,
+        480,
+        1000
+      ],
+      "item_carta": "CREPES DE POLLO/pollo-rosarito",
+      "precio": "$32.800"
+    },
+    {
+      "id": "sombrero-vueltiao",
+      "rotulo_en_carta": "Sombrero Vueltiao",
+      "archivo": "assets/reales/plato-sombrero-vueltiao.png",
+      "ancho": 1697,
+      "alto": 2155,
+      "pagina_pdf": 3,
+      "recorte_pt": [
+        460,
+        545,
+        1015,
+        1250
+      ],
+      "item_carta": "CREPES DE CARNE/sombrero-vueltiao",
+      "precio": "$30.900"
+    },
+    {
+      "id": "cochinita-pibil",
+      "rotulo_en_carta": "Cochinita Pibil",
+      "archivo": "assets/reales/plato-cochinita-pibil.png",
+      "ancho": 1757,
+      "alto": 1803,
+      "pagina_pdf": 3,
+      "recorte_pt": [
+        0,
+        955,
+        575,
+        1545
+      ],
+      "item_carta": "CREPES DE CARNE/cochinita-pibil",
+      "precio": "$29.600"
+    },
+    {
+      "id": "mar-encocado",
+      "rotulo_en_carta": "Mar Encocado",
+      "archivo": "assets/reales/plato-mar-encocado.png",
+      "ancho": 1834,
+      "alto": 1819,
+      "pagina_pdf": 3,
+      "recorte_pt": [
+        415,
+        1325,
+        1015,
+        1920
+      ],
+      "item_carta": "CREPES DE MAR/mar-encocado",
+      "precio": "$42.500"
+    },
+    {
+      "id": "panne-cook-de-camarones",
+      "rotulo_en_carta": "Panne Cook de Camarones en Salsa de la Casa",
+      "archivo": "assets/reales/plato-panne-cook-de-camarones.png",
+      "ancho": 2475,
+      "alto": 1941,
+      "pagina_pdf": 4,
+      "recorte_pt": [
+        180,
+        25,
+        990,
+        660
+      ],
+      "item_carta": "PANNE COOK/camarones",
+      "precio": "$45.900"
+    },
+    {
+      "id": "panne-cook-de-pollo-al-curry",
+      "rotulo_en_carta": "Panne Cook de Pollo al Curry",
+      "archivo": "assets/reales/plato-panne-cook-de-pollo-al-curry.png",
+      "ancho": 1498,
+      "alto": 1895,
+      "pagina_pdf": 4,
+      "recorte_pt": [
+        0,
+        640,
+        490,
+        1260
+      ],
+      "item_carta": "PANNE COOK/pollo-al-curry",
+      "precio": "$35.900"
+    },
+    {
+      "id": "pita-vegetariana",
+      "rotulo_en_carta": "Pita Vegetariana",
+      "archivo": "assets/reales/plato-pita-vegetariana.png",
+      "ancho": 1773,
+      "alto": 1972,
+      "pagina_pdf": 4,
+      "recorte_pt": [
+        500,
+        675,
+        1080,
+        1320
+      ],
+      "item_carta": "PITAS/vegetariana",
+      "precio": "$25.900"
+    },
+    {
+      "id": "pita-siciliana",
+      "rotulo_en_carta": "Pita Siciliana",
+      "archivo": "assets/reales/plato-pita-siciliana.png",
+      "ancho": 1926,
+      "alto": 2033,
+      "pagina_pdf": 4,
+      "recorte_pt": [
+        260,
+        1325,
+        890,
+        1990
+      ],
+      "item_carta": "PITAS/siciliana",
+      "precio": "$27.900"
+    },
+    {
+      "id": "ensalada-marroqui-con-camarones",
+      "rotulo_en_carta": "Ensalada Marroquí con Camarones",
+      "archivo": "assets/reales/plato-ensalada-marroqui-con-camarones.png",
+      "ancho": 1345,
+      "alto": 1925,
+      "pagina_pdf": 5,
+      "recorte_pt": [
+        0,
+        0,
+        440,
+        630
+      ],
+      "item_carta": "ENSALADAS/con-camaron",
+      "precio": "$42.900"
+    },
+    {
+      "id": "ensalada-torina",
+      "rotulo_en_carta": "Ensalada Torina",
+      "archivo": "assets/reales/plato-ensalada-torina.png",
+      "ancho": 1941,
+      "alto": 2369,
+      "pagina_pdf": 5,
+      "recorte_pt": [
+        445,
+        205,
+        1080,
+        980
+      ],
+      "item_carta": "ENSALADAS/torina",
+      "precio": "$38.500"
+    },
+    {
+      "id": "ensalada-cesar-con-salmon",
+      "rotulo_en_carta": "Ensalada Cesar con Salmón",
+      "archivo": "assets/reales/plato-ensalada-cesar-con-salmon.png",
+      "ancho": 1834,
+      "alto": 2461,
+      "pagina_pdf": 5,
+      "recorte_pt": [
+        0,
+        695,
+        600,
+        1500
+      ],
+      "item_carta": "ENSALADAS/con-salmon-ahumado",
+      "precio": "$41.900"
+    },
+    {
+      "id": "ensalada-florentina",
+      "rotulo_en_carta": "Ensalada Florentina",
+      "archivo": "assets/reales/plato-ensalada-florentina.png",
+      "ancho": 1482,
+      "alto": 2430,
+      "pagina_pdf": 5,
+      "recorte_pt": [
+        595,
+        1145,
+        1080,
+        1940
+      ],
+      "item_carta": "ENSALADAS/florentina",
+      "precio": "$35.500"
+    },
+    {
+      "id": "limonada-hierbabuena",
+      "rotulo_en_carta": "Limonada Hierbabuena",
+      "archivo": "assets/reales/plato-limonada-hierbabuena.png",
+      "ancho": 979,
+      "alto": 1956,
+      "pagina_pdf": 6,
+      "recorte_pt": [
+        30,
+        180,
+        350,
+        820
+      ],
+      "item_carta": "LIMONADAS/hierbabuena",
+      "precio": "$8.300"
+    },
+    {
+      "id": "jugo-de-fresa",
+      "rotulo_en_carta": "Jugo de Fresa",
+      "archivo": "assets/reales/plato-jugo-de-fresa.png",
+      "ancho": 918,
+      "alto": 1789,
+      "pagina_pdf": 6,
+      "recorte_pt": [
+        640,
+        175,
+        940,
+        760
+      ],
+      "item_carta": "JUGOS/fresa",
+      "precio": "$8.300"
+    },
+    {
+      "id": "jugo-de-guanabana",
+      "rotulo_en_carta": "Jugo de Guanábana",
+      "archivo": "assets/reales/plato-jugo-de-guanabana.png",
+      "ancho": 1009,
+      "alto": 2017,
+      "pagina_pdf": 6,
+      "recorte_pt": [
+        390,
+        540,
+        720,
+        1200
+      ],
+      "item_carta": "JUGOS/guanabana",
+      "precio": "$8.500"
+    },
+    {
+      "id": "jugo-de-mandarina",
+      "rotulo_en_carta": "Jugo de Mandarina",
+      "archivo": "assets/reales/plato-jugo-de-mandarina.png",
+      "ancho": 1253,
+      "alto": 2354,
+      "pagina_pdf": 6,
+      "recorte_pt": [
+        110,
+        890,
+        520,
+        1660
+      ],
+      "item_carta": "JUGOS/mandarina",
+      "precio": "$10.200"
+    },
+    {
+      "id": "jugo-de-mango",
+      "rotulo_en_carta": "Jugo de Mango",
+      "archivo": "assets/reales/plato-jugo-de-mango.png",
+      "ancho": 1376,
+      "alto": 2689,
+      "pagina_pdf": 6,
+      "recorte_pt": [
+        600,
+        1010,
+        1050,
+        1890
+      ],
+      "item_carta": "JUGOS/mango",
+      "precio": "$8.200"
+    }
+  ],
+  "bandas": [
+    {
+      "archivo": "assets/reales/p7-banda-helados.png",
+      "pagina_pdf": 7,
+      "descripcion": "Bodegón de bolas de helado y frutas sobre fondo cacao.",
+      "ancho": 3000,
+      "alto": 3973
+    },
+    {
+      "archivo": "assets/reales/p8-banda-crepes-en-casa.png",
+      "pagina_pdf": 8,
+      "descripcion": "Envases de Crepes en Casa sobre mesón claro.",
+      "ancho": 3000,
+      "alto": 4556
+    },
+    {
+      "archivo": "assets/reales/p8-banda-salsas-de-sal.png",
+      "pagina_pdf": 8,
+      "descripcion": "Salsas de sal en envases sobre tabla de madera.",
+      "ancho": 3000,
+      "alto": 3445
+    },
+    {
+      "archivo": "assets/reales/p8-banda-salsas-de-dulce.png",
+      "pagina_pdf": 8,
+      "descripcion": "Salsas de dulce en envases sobre tabla de madera.",
+      "ancho": 3000,
+      "alto": 2445
+    }
+  ],
+  "faltantes": [
+    "Foto de la fachada del local (necesaria para el PASO 1C).",
+    "Fotos de interior, barra, terraza y equipo (necesarias para varios heroes del PASO 1D)."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "paso": "1C - la fachada",
+  "estado": "BLOQUEADO POR FALTA DE INSUMO",
+  "bloqueos": [
+    "No existe la foto vertical de la fachada. La unica fuente de imagen entregada es la carta PDF, que no trae ni fachada, ni interior, ni letrero. Un outpaint necesita la foto original: generarla desde cero seria inventar el local y redibujar el letrero, justo lo que prohibe la regla de oro.",
+    "El MCP de Higgsfield no esta conectado en esta sesion."
+  ],
+  "lo_que_se_necesita_del_dueno": [
+    "Foto vertical de la fachada, de dia o al atardecer, con el letrero completo y legible.",
+    "Ideal: la misma toma sin gente y otra con gente, para elegir.",
+    "Resolucion minima 2000 px de alto; sin filtros de celular ni marcas de agua."
+  ],
+  "spec_lista_para_ejecutar": {
+    "operacion": "outpaint",
+    "origen": "assets/reales/fachada-original.jpg (pendiente de entrega)",
+    "salida": "assets/produccion/1c-fachada/fachada-banner-21x9.png",
+    "relacion_aspecto": "21:9",
+    "prompt": "Extend this real storefront photograph sideways into a panoramic 21:9 street banner. Keep the ORIGINAL sign and facade pixels untouched and perfectly sharp; only invent the street to the left and right. Warm late-afternoon sunlight raking across the sidewalk, long soft shadows, blurred passers-by walking, wet asphalt with reflections of the warm light, shallow depth on the background buildings. Photographic continuity with the source: same lens perspective, same color temperature, same grain.",
+    "negativo": "redrawn logo, altered signage, new text, different lettering, warped facade, duplicated building, cartoon, illustration, watermark, oversaturated sky",
+    "verificacion": "Comparar el letrero pixel a pixel contra la foto original. Si el modelo lo toco aunque sea un poco, se repite con mascara mas estricta."
+  }
+}

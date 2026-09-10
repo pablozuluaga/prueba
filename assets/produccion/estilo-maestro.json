@@ -1,0 +1,30 @@
+{
+  "problema_detectado": {
+    "resumen": "El estilo maestro y los 8 heroes del brief describen una fuente de soda chileno-alemana de 1975 (lomito, schop, chucrut, garzones, quitasoles, chef mascota vintage), no Crepes & Waffles Medellin.",
+    "por_que_importa": "La REGLA DE ORO del proyecto dice que la identidad no se toca y que ante la duda se elige fiel. Producir 8 heroes de lomito y schop para una marca de crepes, waffles y helados seria justo lo contrario.",
+    "decision_pendiente": "El usuario elige entre A (fiel a Crepes & Waffles, recomendado) y B (literal al brief).",
+    "estado": "sin resolver al cierre del PASO 1"
+  },
+
+  "A_fiel_a_crepes_y_waffles": {
+    "recomendado": true,
+    "fundamento": "Es el lenguaje fotografico real de la marca, tal como aparece en su propia carta: cenital, plato blanco de borde fino, fondo liso beige/terracota, luz difusa de estudio, cero props, porciones honestas.",
+    "prompt": "Editorial food photography for Crepes & Waffles, a Colombian crepe and waffle house in Medellin. Top-down flat lay, plain warm beige seamless backdrop, soft diffuse studio light with a gentle shadow falling to the lower right, plating faithful to the REAL dish in the source photo, same white plate with a thin rim across all shots, natural saturation, deep greens and warm golden browns, honest restaurant portions, crisp detail on textures (crepe blistering, avocado, pico de gallo, fresh herbs). 4:5 crop, high detail, editorial magazine quality.",
+    "negativo": "neon colors, beer glass, dark wood table, vintage coasters, amber bar lighting, nordic minimalist styling, marble tables, fake gloss, added ingredients, extra garnish, hands, cutlery, text, watermark, logo"
+  },
+
+  "B_literal_al_brief": {
+    "recomendado": false,
+    "advertencia": "Describe otro restaurante (casa de cervezas chileno-alemana, 1975). Se guarda literal por si el usuario lo confirma.",
+    "prompt": "Warm editorial food photography for a classic Chilean-German beer house founded in 1975. Rich amber lighting, soft window light from the left, dark wood table, subtle steam rising, shallow depth of field (85mm f/2.2 look), plating faithful to the REAL dish in the source photo, deep greens and warm browns, hint of a beer glass and vintage coasters blurred in the background. Honest portions, same white plate with thin rim across all shots. 4:5 crop, high detail, editorial magazine quality.",
+    "negativo": "neon colors, nordic minimalist styling, marble tables, fake gloss, added ingredients, text, watermark"
+  },
+
+  "reglas_no_negociables": [
+    "Image-to-image sobre la foto real. Nunca texto-a-imagen para un plato.",
+    "Prohibido inventar platos o ingredientes que no esten en la foto original.",
+    "Prohibido redibujar el logo o el letrero de la marca.",
+    "Todas las fotos de plato salen en 4:5 y con el mismo plato blanco de borde fino.",
+    "Cada plato se entrega en antes/despues para que el dueno compare."
+  ]
+}

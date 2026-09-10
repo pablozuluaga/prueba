@@ -1,0 +1,204 @@
+{
+  "paso": "1B - fotos de platos",
+  "estado": "ESPECIFICADO, NO EJECUTADO",
+  "bloqueo": "El MCP de Higgsfield no esta conectado en esta sesion. Los MCP disponibles son Canva, Google Drive, GitHub y Claude Code Remote; ninguno hace image-to-image fotorrealista. En cuanto se conecte Higgsfield, este archivo se ejecuta tal cual.",
+  "estilo_maestro": "assets/produccion/estilo-maestro.json (usar la variante que elija el dueno)",
+  "reglas": [
+    "Cada generacion parte de foto_real_origen. Nunca texto-a-imagen.",
+    "Prohibido agregar ingredientes, props o guarniciones que no esten en la foto original.",
+    "Verificacion obligatoria plato por plato antes de publicar: comparar antes/despues e ingrediente por ingrediente contra la descripcion de carta.json."
+  ],
+  "total": 10,
+  "platos": [
+    {
+      "orden": 1,
+      "id": "sombrero-vueltiao",
+      "nombre_en_carta": "Sombrero Vueltiao",
+      "seccion": "CREPES DE CARNE",
+      "precio": "$30.900",
+      "por_que_esta": "El plato mas colombiano de la carta y el mejor gancho local en Medellin.",
+      "foto_real_origen": "assets/reales/plato-sombrero-vueltiao.png",
+      "resolucion_origen": "1697x2155",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-sombrero-vueltiao.png",
+        "despues": "assets/produccion/1b-platos/sombrero-vueltiao-despues.png",
+        "comparativa": "assets/produccion/1b-platos/sombrero-vueltiao-antes-despues.png"
+      }
+    },
+    {
+      "orden": 2,
+      "id": "cochinita-pibil",
+      "nombre_en_carta": "Cochinita Pibil",
+      "seccion": "CREPES DE CARNE",
+      "precio": "$29.600",
+      "por_que_esta": "Crepe de carne con mayor rotacion visual; contraste de color muy fotogenico.",
+      "foto_real_origen": "assets/reales/plato-cochinita-pibil.png",
+      "resolucion_origen": "1757x1803",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-cochinita-pibil.png",
+        "despues": "assets/produccion/1b-platos/cochinita-pibil-despues.png",
+        "comparativa": "assets/produccion/1b-platos/cochinita-pibil-antes-despues.png"
+      }
+    },
+    {
+      "orden": 3,
+      "id": "pollo-rosarito",
+      "nombre_en_carta": "Pollo Rosarito",
+      "seccion": "CREPES DE POLLO",
+      "precio": "$32.800",
+      "por_que_esta": "Representa toda la familia de crepes de pollo, la mas larga de la carta.",
+      "foto_real_origen": "assets/reales/plato-pollo-rosarito.png",
+      "resolucion_origen": "1467x1788",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-pollo-rosarito.png",
+        "despues": "assets/produccion/1b-platos/pollo-rosarito-despues.png",
+        "comparativa": "assets/produccion/1b-platos/pollo-rosarito-antes-despues.png"
+      }
+    },
+    {
+      "orden": 4,
+      "id": "mar-encocado",
+      "nombre_en_carta": "Mar Encocado",
+      "seccion": "CREPES DE MAR",
+      "precio": "$42.500",
+      "por_que_esta": "Ticket alto ($42.500): sostiene la percepcion de restaurante, no de cafeteria.",
+      "foto_real_origen": "assets/reales/plato-mar-encocado.png",
+      "resolucion_origen": "1834x1819",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-mar-encocado.png",
+        "despues": "assets/produccion/1b-platos/mar-encocado-despues.png",
+        "comparativa": "assets/produccion/1b-platos/mar-encocado-antes-despues.png"
+      }
+    },
+    {
+      "orden": 5,
+      "id": "salmon-roll",
+      "nombre_en_carta": "Salmon Roll",
+      "seccion": "CREPES DE MAR",
+      "precio": "$42.500",
+      "por_que_esta": "Unico plato frio de mar; aporta verde y frescura a la grilla.",
+      "foto_real_origen": "assets/reales/plato-salmon-roll.png",
+      "resolucion_origen": "2446x1437",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-salmon-roll.png",
+        "despues": "assets/produccion/1b-platos/salmon-roll-despues.png",
+        "comparativa": "assets/produccion/1b-platos/salmon-roll-antes-despues.png"
+      }
+    },
+    {
+      "orden": 6,
+      "id": "huevos-australianos",
+      "nombre_en_carta": "Australianos",
+      "seccion": "HUEVOS",
+      "precio": "$29.800",
+      "por_que_esta": "Cabeza de la seccion desayunos y brunch.",
+      "foto_real_origen": "assets/reales/plato-huevos-australianos.png",
+      "resolucion_origen": "2445x2689",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-huevos-australianos.png",
+        "despues": "assets/produccion/1b-platos/huevos-australianos-despues.png",
+        "comparativa": "assets/produccion/1b-platos/huevos-australianos-antes-despues.png"
+      }
+    },
+    {
+      "orden": 7,
+      "id": "crepe-jamon-y-queso",
+      "nombre_en_carta": "Jamón y Queso",
+      "seccion": "CREPES",
+      "precio": "$19.900",
+      "por_que_esta": "El clasico de entrada ($19.900): el plato puerta de la marca.",
+      "foto_real_origen": "assets/reales/plato-crepe-jamon-y-queso.png",
+      "resolucion_origen": "1467x2140",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-crepe-jamon-y-queso.png",
+        "despues": "assets/produccion/1b-platos/crepe-jamon-y-queso-despues.png",
+        "comparativa": "assets/produccion/1b-platos/crepe-jamon-y-queso-antes-despues.png"
+      }
+    },
+    {
+      "orden": 8,
+      "id": "ensalada-cesar-con-salmon",
+      "nombre_en_carta": "Con Salmón Ahumado",
+      "seccion": "ENSALADAS",
+      "precio": "$41.900",
+      "por_que_esta": "Cabeza de ensaladas y el plato mas pedido del mediodia de oficina.",
+      "foto_real_origen": "assets/reales/plato-ensalada-cesar-con-salmon.png",
+      "resolucion_origen": "1834x2461",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-ensalada-cesar-con-salmon.png",
+        "despues": "assets/produccion/1b-platos/ensalada-cesar-con-salmon-despues.png",
+        "comparativa": "assets/produccion/1b-platos/ensalada-cesar-con-salmon-antes-despues.png"
+      }
+    },
+    {
+      "orden": 9,
+      "id": "sopa-mexicana-con-pollo",
+      "nombre_en_carta": "Mexicana con Pollo",
+      "seccion": "SOPAS",
+      "precio": "$20.500",
+      "por_que_esta": "Unica sopa con foto real disponible.",
+      "foto_real_origen": "assets/reales/plato-sopa-mexicana-con-pollo.png",
+      "resolucion_origen": "2720x2888",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-sopa-mexicana-con-pollo.png",
+        "despues": "assets/produccion/1b-platos/sopa-mexicana-con-pollo-despues.png",
+        "comparativa": "assets/produccion/1b-platos/sopa-mexicana-con-pollo-antes-despues.png"
+      }
+    },
+    {
+      "orden": 10,
+      "id": "acai-bowl",
+      "nombre_en_carta": "Açaí Bowl",
+      "seccion": "+ OPCIONES",
+      "precio": "$21.900",
+      "por_que_esta": "Producto sano y muy compartible en redes; cierra la grilla con color.",
+      "foto_real_origen": "assets/reales/plato-acai-bowl.png",
+      "resolucion_origen": "2170x2385",
+      "operacion": "image-to-image",
+      "fuerza_sugerida": 0.35,
+      "comentario_fuerza": "Bajo a proposito: se busca reiluminar y limpiar el fondo, no reinventar el plato. Si a 0.35 aparece cualquier ingrediente que no este en la foto original, bajar a 0.25 y repetir.",
+      "relacion_aspecto": "4:5",
+      "salidas": {
+        "antes": "assets/reales/plato-acai-bowl.png",
+        "despues": "assets/produccion/1b-platos/acai-bowl-despues.png",
+        "comparativa": "assets/produccion/1b-platos/acai-bowl-antes-despues.png"
+      }
+    }
+  ]
+}

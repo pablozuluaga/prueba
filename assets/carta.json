@@ -1,0 +1,2033 @@
+{
+  "restaurante": "Crepes & Waffles",
+  "ciudad": "Medellín",
+  "moneda": "COP",
+  "fuente_pdf": "70bd657b-afmenupagwebinterior1.pdf",
+  "nota_precios": "Nombres y precios exactos, tal como aparecen en la carta PDF vigente.",
+  "secciones": [
+    {
+      "seccion": "HUEVOS",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Poché",
+          "descripcion": "Gratinados con el toque especial de Crepes & Waffles®.",
+          "precio": "$13.300",
+          "id": "poche"
+        },
+        {
+          "nombre": "Benedictine",
+          "descripcion": "Sobre un muffin inglés con lomo ahumado de cerdo y salsa Crepes & Waffles®.",
+          "precio": "$25.900",
+          "id": "benedictine"
+        },
+        {
+          "nombre": "Rancheros",
+          "descripcion": "Huevos con cebolla, lomo ahumado de cerdo, salsa de tomate y queso parmesano.",
+          "precio": "$21.500",
+          "id": "rancheros"
+        },
+        {
+          "nombre": "Australianos",
+          "descripcion": "Huevos poché, corte especial de tocineta, aguacate, tomate asado y salsa poché, todo sobre una tostada de pan artesanal.",
+          "precio": "$29.800",
+          "id": "australianos"
+        },
+        {
+          "nombre": "Crepes & Waffles®",
+          "descripcion": "Crepe con huevos revueltos y cebollina a la crema sobre un fondo de salsa de queso.",
+          "precio": "$17.900",
+          "id": "crepes-waffles"
+        },
+        {
+          "nombre": "Rosarito",
+          "descripcion": "Tostada artesanal, dos huevos poché, tocineta crujiente, aguacate y una salsa de chile chipotle resaltando el sabor de México.",
+          "precio": "$28.900",
+          "id": "rosarito"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Sensación Colombia",
+          "descripcion": "Carne desmechada, queso, huevo, crema agria y nuestro tradicional “hogao\".",
+          "precio": "$28.900",
+          "id": "sensacion-colombia"
+        },
+        {
+          "nombre": "Jamón y Queso",
+          "precio": "$19.900",
+          "id": "jamon-y-queso"
+        },
+        {
+          "nombre": "Queso",
+          "precio": "$14.200",
+          "id": "queso"
+        },
+        {
+          "nombre": "Parisien",
+          "descripcion": "Crepe con huevo, tocineta, queso y salsa de queso.",
+          "precio": "$24.900",
+          "id": "parisien"
+        },
+        {
+          "nombre": "Bretonne",
+          "descripcion": "Típica crepe francesa de lomo ahumado de cerdo, queso y huevo.",
+          "precio": "$25.900",
+          "id": "bretonne"
+        },
+        {
+          "nombre": "Crespolinis",
+          "descripcion": "Crepe con huevos revueltos, lomo ahumado de cerdo, queso y salsa primavera.",
+          "precio": "$22.900",
+          "id": "crespolinis"
+        }
+      ],
+      "nota": "masa vegana y sin gluten. Ahora puedes pedir tus crepes en"
+    },
+    {
+      "seccion": "WAFFLES",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Mantequilla y Syrup o Miel",
+          "descripcion": "Pídelos  también con :",
+          "precio": "$11.200",
+          "id": "mantequilla-y-syrup-o-miel"
+        },
+        {
+          "nombre": "Huevo Frito y Tocineta",
+          "precio": "$18.400",
+          "id": "huevo-frito-y-tocineta"
+        },
+        {
+          "nombre": "Huevo Frito y Salchichas",
+          "precio": "$18.400",
+          "id": "huevo-frito-y-salchichas"
+        },
+        {
+          "nombre": "Waffle D’Choclo",
+          "descripcion": "Waffle de maíz relleno de queso, con queso 7 cueros y suero costeño.",
+          "precio": "$16.500",
+          "id": "waffle-d-choclo"
+        }
+      ]
+    },
+    {
+      "seccion": "MINI WAFFLES",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Mini Waffle D'Yuca",
+          "descripcion": "Un mini waffle con mantequilla, panela orgánica molida y jalea de guayaba.",
+          "precio": "$8.900",
+          "id": "mini-waffle-d-yuca"
+        },
+        {
+          "nombre": "Pídelo con doble Mini Waffles",
+          "precio": "$15.900",
+          "id": "pidelo-con-doble-mini-waffles"
+        }
+      ]
+    },
+    {
+      "seccion": "MENÚ INFANTIL",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Waffle Mickey con:",
+          "precio": null,
+          "id": "waffle-mickey-con"
+        },
+        {
+          "nombre": "Syrup, Salchichitas y Huevo Frito",
+          "precio": "$14.900",
+          "id": "syrup-salchichitas-y-huevo-frito"
+        },
+        {
+          "nombre": "Syrup, Tocineta y Huevo Frito",
+          "precio": "$14.900",
+          "id": "syrup-tocineta-y-huevo-frito"
+        }
+      ]
+    },
+    {
+      "seccion": "+ OPCIONES",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Timbal de Frutas Frescas",
+          "descripcion": "Refrescante combinación de mango, sandía y naranja.",
+          "precio": "$9.900",
+          "id": "timbal-de-frutas-frescas"
+        },
+        {
+          "nombre": "Açaí Bowl",
+          "descripcion": "Açaí con arándanos, fresa, banano y granola.",
+          "precio": "$21.900",
+          "id": "acai-bowl"
+        },
+        {
+          "nombre": "Pancakes de Ahuyama",
+          "descripcion": "Con yogurt griego, granola y miel.",
+          "precio": "$18.900",
+          "id": "pancakes-de-ahuyama"
+        },
+        {
+          "nombre": "Nuestros Clásicos Parfaits",
+          "precio": null,
+          "id": "nuestros-clasicos-parfaits"
+        },
+        {
+          "nombre": "Frutos del Bosque",
+          "descripcion": "Copa con granola, yogurt de vainilla, fresa, arándanos y salsa de arándanos.",
+          "precio": "$19.400",
+          "id": "frutos-del-bosque"
+        },
+        {
+          "nombre": "Guanábana",
+          "descripcion": "Copa de yogurt griego natural sin azúcar, acompañado de granola y copos de guanábana... Endulza a tu gusto con miel.",
+          "precio": "$19.400",
+          "id": "guanabana"
+        }
+      ]
+    },
+    {
+      "seccion": "PARA CADA DÍA",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Queso Momposino",
+          "descripcion": "Tradicional y delicioso queso en capas de Mompox para que estires a tu antojo.",
+          "precio": "$16.900",
+          "id": "queso-momposino"
+        }
+      ]
+    },
+    {
+      "seccion": "JUGOS",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Mora",
+          "precio": "$7.900",
+          "id": "mora"
+        },
+        {
+          "nombre": "Mango",
+          "precio": "$8.200",
+          "id": "mango"
+        },
+        {
+          "nombre": "Mandarina",
+          "precio": "$10.200",
+          "id": "mandarina"
+        },
+        {
+          "nombre": "Fresa",
+          "precio": "$8.300",
+          "id": "fresa"
+        },
+        {
+          "nombre": "Guanábana",
+          "descripcion": "Jugo natural en leche.",
+          "precio": "$8.500",
+          "id": "guanabana"
+        },
+        {
+          "nombre": "Naranja",
+          "precio": "$9.600",
+          "id": "naranja"
+        },
+        {
+          "nombre": "Frambuesa",
+          "precio": "$10.500",
+          "id": "frambuesa"
+        }
+      ]
+    },
+    {
+      "seccion": "LIMONADAS",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Natural",
+          "precio": "$6.900",
+          "id": "natural"
+        },
+        {
+          "nombre": "Hierbabuena",
+          "precio": "$8.300",
+          "id": "hierbabuena"
+        },
+        {
+          "nombre": "Mango Biche",
+          "precio": "$9.600",
+          "id": "mango-biche"
+        },
+        {
+          "nombre": "Coco",
+          "precio": "$11.600",
+          "id": "coco"
+        }
+      ]
+    },
+    {
+      "seccion": "BATIDOS",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Piña, Jengibre y Hierbabuena",
+          "precio": "$9.900",
+          "id": "pina-jengibre-y-hierbabuena"
+        },
+        {
+          "nombre": "Alegría",
+          "descripcion": "Mezcla de frutas del campo: mango, maracuyá y piña.",
+          "precio": "$11.200",
+          "id": "alegria"
+        },
+        {
+          "nombre": "Bienestar",
+          "descripcion": "Mezcla de frutas del campo: manzana, pera, feijoa y hierbabuena.",
+          "precio": "$11.200",
+          "id": "bienestar"
+        }
+      ]
+    },
+    {
+      "seccion": "OTRAS BEBIDAS",
+      "pagina": 1,
+      "items": [
+        {
+          "nombre": "Agua Siembra® con o sin Gas",
+          "precio": "$7.500",
+          "id": "agua-siembra-con-o-sin-gas"
+        },
+        {
+          "nombre": "Agua Manantial®",
+          "precio": "$7.500",
+          "id": "agua-manantial"
+        },
+        {
+          "nombre": "Agua Manantial® con Gas",
+          "precio": "$7.200",
+          "id": "agua-manantial-con-gas"
+        },
+        {
+          "nombre": "Coca-Cola®",
+          "descripcion": "Original o Zero.",
+          "precio": "$6.500",
+          "id": "coca-cola"
+        }
+      ]
+    },
+    {
+      "seccion": "ENTRADAS",
+      "pagina": 2,
+      "items": [
+        {
+          "nombre": "Ensalada de la Barra",
+          "descripcion": "Porque nadie conoce la mezcla mejor que tú.",
+          "precio": "$18.900",
+          "id": "ensalada-de-la-barra"
+        },
+        {
+          "nombre": "Ensalada Cesar",
+          "precio": "$17.900",
+          "id": "ensalada-cesar"
+        }
+      ],
+      "opciones": [
+        {
+          "grupo": "Elige tus ingredientes",
+          "valores": [
+            "Apio",
+            "Zanahoria en julianas",
+            "Arveja",
+            "Arracacha de Cajamarca con perejil y crema",
+            "Brócoli",
+            "Cebolla encurtida",
+            "Champiñones frescos",
+            "Ceviche de chontaduro",
+            "Espinaca",
+            "Ceviche de mango",
+            "Huevo",
+            "Verduras encurtidas:",
+            "Lechuga cebolla, pimentón y pepino cohombro",
+            "Maíz",
+            "Fríjolitos rojos de temporada desgranado",
+            "Mazorca baby",
+            "Pepinillo agridulce",
+            "Palmito vegetal",
+            "Quinoa del Chocó con tomates secos",
+            "Pimentón rojo",
+            "Trigo kamut",
+            "Remolacha",
+            "Zukizana: láminas de zucchini y zanahoria con pesto",
+            "Tomate Cherry"
+          ]
+        },
+        {
+          "grupo": "Elige tus salsas",
+          "valores": [
+            "Aceite de Oliva",
+            "Vinagre Mosto de Caña",
+            "Salsa",
+            "Vinagreta Amarilla Verde",
+            "Salsa Rosada"
+          ]
+        },
+        {
+          "grupo": "Elige tus complementos",
+          "valores": [
+            "Ajonjolí tostado",
+            "Semillas de Girasol",
+            "Chips de arracacha",
+            "Semillas de Cajamarca de Soya",
+            "Lentejas crocantes"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "SOPAS",
+      "pagina": 2,
+      "items": [
+        {
+          "nombre": "Soy Otoño",
+          "descripcion": "Explosión de vegetales, tomate, zucchini y zanahoria, con frijolitos rojos cuarentanos. *Frijol de temporada, origen Montes de María.",
+          "precio": "$11.900",
+          "id": "soy-otono"
+        },
+        {
+          "nombre": "Espinaca",
+          "descripcion": "Sopa de espinaca del huerto a tu casa. Naturalmente deliciosa.",
+          "precio": "$13.900",
+          "id": "espinaca"
+        },
+        {
+          "nombre": "Lentejas",
+          "descripcion": "Con champiñones y Portobellos, lentejas beluga y un ligero toque de especias de la India.",
+          "precio": "$14.900",
+          "id": "lentejas"
+        },
+        {
+          "nombre": "Covarachía",
+          "descripcion": "Sopa donde el tomate, el maíz y el plátano entran a jugar para resaltar el valor de los sabores de nuestra tierra, con aguacate, crema agria y cilantro.",
+          "precio": "$15.900",
+          "id": "covarachia"
+        },
+        {
+          "nombre": "Sopa del Sol",
+          "descripcion": "Sopa de zapallo con un toque de queso de cabra y pesto, pan pita y cilantro.",
+          "precio": "$14.900",
+          "id": "sopa-del-sol"
+        },
+        {
+          "nombre": "Mexicana con Pollo",
+          "descripcion": "Sabores de México: chile chipotle, crema agria, queso, aguacate, pollo, pico de gallo y tortilla mexicana.",
+          "precio": "$20.500",
+          "id": "mexicana-con-pollo"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES CLÁSICOS",
+      "pagina": 3,
+      "items": [
+        {
+          "nombre": "Jamón y Queso",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$19.900",
+          "id": "jamon-y-queso"
+        },
+        {
+          "nombre": "Champiñones",
+          "descripcion": "1",
+          "precio": "$23.900",
+          "id": "champinones"
+        },
+        {
+          "nombre": "Pavo, Queso tipo Holandés y Salsa Dijonnaise",
+          "precio": "$31.900",
+          "id": "pavo-queso-tipo-holandes-y-salsa-dijonnaise"
+        },
+        {
+          "nombre": "Sensación",
+          "descripcion": "Lomo ahumado de cerdo, queso y huevo. Pídelo también con cebolla y tomate.",
+          "precio": "$25.900",
+          "id": "sensacion"
+        },
+        {
+          "nombre": "Sensación Colombia",
+          "descripcion": "Carne desmechada, queso, huevo, crema agria y nuestro tradicional “hogao\".",
+          "precio": "$28.900",
+          "id": "sensacion-colombia"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES VEGETARIANOS",
+      "pagina": 3,
+      "items": [
+        {
+          "nombre": "Champiñones al Ajillo",
+          "descripcion": "Crepe de champiñones en salsa al ajillo con queso. 1",
+          "precio": "$22.900",
+          "id": "champinones-al-ajillo"
+        },
+        {
+          "nombre": "Romana",
+          "descripcion": "Mozzarellina, salsa napolitana con albahaca y queso parmesano. 1",
+          "precio": "$22.900",
+          "id": "romana"
+        },
+        {
+          "nombre": "Sicilia",
+          "descripcion": "Mozzarellina, tomates secos, tomates frescos y albahaca.",
+          "precio": "$25.400",
+          "id": "sicilia"
+        },
+        {
+          "nombre": "Champiñones, Alcachofa y Queso",
+          "precio": "$27.900",
+          "id": "champinones-alcachofa-y-queso"
+        },
+        {
+          "nombre": "Poblana",
+          "descripcion": "Aguacate, queso, pico de gallo, salsa agria, lechuga y un delicioso toque mexicano de ají.",
+          "precio": "$25.900",
+          "id": "poblana"
+        },
+        {
+          "nombre": "Toscana",
+          "descripcion": "Queso, tomate, albahaca, champiñones frescos, salsa de champiñones y napolitana.",
+          "precio": "$25.900",
+          "id": "toscana"
+        },
+        {
+          "nombre": "Normanda",
+          "descripcion": "Champiñones frescos, variedad de quesos y salsa de champiñones.",
+          "precio": "$26.900",
+          "id": "normanda"
+        },
+        {
+          "nombre": "Caprino",
+          "descripcion": "Champiñones salteados, tomates secos, tomates frescos, pesto, reducción de balsámico y mozzarellina.",
+          "precio": "$29.800",
+          "id": "caprino"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES DE CARNE",
+      "pagina": 3,
+      "items": [
+        {
+          "nombre": "Boloñesa y Queso",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$23.300",
+          "id": "bolonesa-y-queso"
+        },
+        {
+          "nombre": "Lomo Ahumado de Cerdo",
+          "precio": "$26.900",
+          "id": "lomo-ahumado-de-cerdo"
+        },
+        {
+          "nombre": "Champiñones",
+          "precio": "$25.900",
+          "id": "champinones"
+        },
+        {
+          "nombre": "Sombrero Vueltiao",
+          "descripcion": "Carne desmechada, preparada con “hogao” sobre puré de plátano maduro, acompañada de crema agria, aguacate y un toque de pico de gallo.",
+          "precio": "$30.900",
+          "id": "sombrero-vueltiao"
+        },
+        {
+          "nombre": "Cochinita Pibil",
+          "descripcion": "Preparación mexicana de cerdo desmechado, acompañado de tonos cítricos y un toque de aguacate, lechuga, pico de gallo, cebolla encurtida y crema agria.",
+          "precio": "$29.600",
+          "id": "cochinita-pibil"
+        },
+        {
+          "nombre": "Ternera",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$31.500",
+          "id": "ternera"
+        },
+        {
+          "nombre": "Champiñones",
+          "precio": "$31.800",
+          "id": "champinones"
+        },
+        {
+          "nombre": "Stroganoff",
+          "descripcion": "Julianas de lomo y champiñones en su salsa.",
+          "precio": "$37.200",
+          "id": "stroganoff"
+        },
+        {
+          "nombre": "Mexicano",
+          "descripcion": "Boloñesa en salsa mexicana, queso rallado, lechuga, crema agria, ají y pico de gallo.",
+          "precio": "$28.900",
+          "id": "mexicano"
+        },
+        {
+          "nombre": "Lomito Pimienta",
+          "descripcion": "Julianas de lomo y pimienta del Putumayo en su salsa.",
+          "precio": "$38.200",
+          "id": "lomito-pimienta"
+        },
+        {
+          "nombre": "Roastbeef",
+          "descripcion": "Tajadas de roastbeef y queso, cebollas asadas, rúgula, mayonesa chipotle y chucrut de cebollas, armando una fantasía de sabor.",
+          "precio": "$34.900",
+          "id": "roastbeef"
+        },
+        {
+          "nombre": "Lomo Árabe",
+          "descripcion": "Con especias del Medio Oriente y ensalada a su mejor estilo.",
+          "precio": "$41.800",
+          "id": "lomo-arabe"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES DE POLLO",
+      "pagina": 3,
+      "items": [
+        {
+          "nombre": "Pollo y Queso",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$27.900",
+          "id": "pollo-y-queso"
+        },
+        {
+          "nombre": "Champiñones",
+          "precio": "$30.900",
+          "id": "champinones"
+        },
+        {
+          "nombre": "Brócoli y Salsa de Queso Parmesano",
+          "precio": "$33.600",
+          "id": "brocoli-y-salsa-de-queso-parmesano"
+        },
+        {
+          "nombre": "Pollo al Curry",
+          "precio": "$30.900",
+          "id": "pollo-al-curry"
+        },
+        {
+          "nombre": "Pollo Chipotle",
+          "descripcion": "Pollo con salsa chipotle, aguacate, pico de gallo, queso, maíz y crema agria, acompañado de rúgula.",
+          "precio": "$31.900",
+          "id": "pollo-chipotle"
+        },
+        {
+          "nombre": "Pollo Rosarito",
+          "descripcion": "Pollo en salsa mexicana con chipotle, arcos de aguacate y frijol rojo cuarentano. *Frijol de temporada, origen Montes de María.",
+          "precio": "$32.800",
+          "id": "pollo-rosarito"
+        },
+        {
+          "nombre": "Pollo al Curry al estilo Hindú",
+          "descripcion": "Con maní, uvas pasas y chutney de mango.",
+          "precio": "$31.900",
+          "id": "pollo-al-curry-al-estilo-hindu"
+        },
+        {
+          "nombre": "Pollo Trufa Mexicano",
+          "descripcion": "Mezcla de sabores mexicanos con huitlacoche, aguacate y salsa de queso parmesano.",
+          "precio": "$32.900",
+          "id": "pollo-trufa-mexicano"
+        },
+        {
+          "nombre": "Pollo Peruano",
+          "descripcion": "Típica preparación de ají de gallina limeño,salsa de aceitunas y aceitunas moradas, rúgula y huevo.",
+          "precio": "$31.900",
+          "id": "pollo-peruano"
+        },
+        {
+          "nombre": "Pollo al Ají Panka",
+          "descripcion": "Pollo con todos los sabores del Perú. Puré de frijol al cilantro, aguacate, rúgula, filamentos de pimentón y cebolla roja.",
+          "precio": "$32.900",
+          "id": "pollo-al-aji-panka"
+        },
+        {
+          "nombre": "Pollo Mexicano",
+          "descripcion": "Pollo en salsa mexicana y chipotle, queso rallado, lechuga, crema agria, ají y pico de gallo.",
+          "precio": "$32.500",
+          "id": "pollo-mexicano"
+        },
+        {
+          "nombre": "Pollo Thai",
+          "descripcion": "Pechuga de pollo y champiñones Portobello, con una mezcla de sabores orientales a base de curry y maracuyá.",
+          "precio": "$33.500",
+          "id": "pollo-thai"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES DE MAR",
+      "pagina": 3,
+      "items": [
+        {
+          "nombre": "Palmitos",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa . (Marco Polo)",
+          "precio": "$32.300",
+          "id": "palmitos"
+        },
+        {
+          "nombre": "Calamares",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa . (Marco Polo)",
+          "precio": "$34.800",
+          "id": "calamares"
+        },
+        {
+          "nombre": "Camarones",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa . (Marco Polo)",
+          "precio": "$41.900",
+          "id": "camarones"
+        },
+        {
+          "nombre": "Mar Encocado",
+          "descripcion": "Pulpo, camarones, calamares y langostinos sobre quinua negra, bañados en salsa de coco y toques de coco crujiente.",
+          "precio": "$42.500",
+          "id": "mar-encocado"
+        },
+        {
+          "nombre": "Camarones Rosarito",
+          "descripcion": "En salsa mexicana con chipotle, arcos de aguacate y frijol rojo cuarentano. *Frijol de temporada, origen Montes de María.",
+          "precio": "$42.800",
+          "id": "camarones-rosarito"
+        },
+        {
+          "nombre": "Salmon Roll",
+          "descripcion": "Rollitos de salmón ahumado con rúgula, queso crema, mostaza, cebolla, aguacate y crujientes vegetales frescos. Acompañados de ensalada verde. 1 Pídelo con ensalada verde, vinagre balsámico y aceite de oliva. Valor adicional: $6.400",
+          "precio": "$42.500",
+          "id": "salmon-roll"
+        }
+      ]
+    },
+    {
+      "seccion": "PITAS",
+      "pagina": 4,
+      "items": [
+        {
+          "nombre": "Pollo Árabe",
+          "descripcion": "Pechuga de pollo al horno, lechuga, tahini, trocitos de aceitunas y cebollas encurtidas. 1",
+          "precio": "$28.900",
+          "id": "pollo-arabe"
+        },
+        {
+          "nombre": "Pavo",
+          "descripcion": "Pan árabe relleno de pechuga de pavo, variedad de quesos y salsa dijonnaise.",
+          "precio": "$31.900",
+          "id": "pavo"
+        },
+        {
+          "nombre": "Doble Pocket",
+          "descripcion": "Pan árabe relleno de lomo ahumado de cerdo, salsa dijonnaise y variedad de quesos.",
+          "precio": "$25.500",
+          "id": "doble-pocket"
+        },
+        {
+          "nombre": "Popeye Pocket",
+          "descripcion": "Pan árabe relleno de espinaca, lomo ahumado de cerdo, cebolla, huevo, champiñones y tomate, gratinado con queso, acompañado con salsa amarilla y vinagreta verde.",
+          "precio": "$23.900",
+          "id": "popeye-pocket"
+        },
+        {
+          "nombre": "Mozzarella Pocket",
+          "descripcion": "Queso, salsa napolitana y albahaca.",
+          "precio": "$16.200",
+          "id": "mozzarella-pocket"
+        },
+        {
+          "nombre": "Champiñón Pocket",
+          "descripcion": "Portobello y champiñones salteados con albahaca, tomates secos y rúgula, gratinados con queso.",
+          "precio": "$29.200",
+          "id": "champinon-pocket"
+        },
+        {
+          "nombre": "Capresa",
+          "descripcion": "Pan árabe relleno de mozzarellina, tomates frescos y secos, rúgula y pesto.",
+          "precio": "$27.900",
+          "id": "capresa"
+        },
+        {
+          "nombre": "Siciliana",
+          "descripcion": "Queso, salsa napolitana, tomates frescos, tomates secos, albahaca y aceite de oliva.",
+          "precio": "$27.900",
+          "id": "siciliana"
+        },
+        {
+          "nombre": "Vegetariana",
+          "descripcion": "Queso, salsa napolitana, champiñones, cebolla, tomate, pimentón y apio.",
+          "precio": "$25.900",
+          "id": "vegetariana"
+        },
+        {
+          "nombre": "Griega",
+          "descripcion": "Queso, salsa napolitana, alcachofas, aceitunas moradas, cebolla, tomate y especias.",
+          "precio": "$27.900",
+          "id": "griega"
+        }
+      ]
+    },
+    {
+      "seccion": "PANNE COOK",
+      "pagina": 4,
+      "items": [
+        {
+          "nombre": "Ternera",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$35.300",
+          "id": "ternera"
+        },
+        {
+          "nombre": "Champiñones",
+          "precio": "$35.800",
+          "id": "champinones"
+        },
+        {
+          "nombre": "Pollo y Champiñones",
+          "descripcion": "Puedes pedirlo también con:",
+          "precio": "$34.900",
+          "id": "pollo-y-champinones"
+        },
+        {
+          "nombre": "Queso",
+          "precio": "$35.900",
+          "id": "queso"
+        },
+        {
+          "nombre": "Pollo al Curry",
+          "precio": "$35.900",
+          "id": "pollo-al-curry"
+        },
+        {
+          "nombre": "Stroganoff",
+          "descripcion": "Julianas de lomo y champiñones en su salsa.",
+          "precio": "$44.900",
+          "id": "stroganoff"
+        },
+        {
+          "nombre": "Lomito Pimienta",
+          "descripcion": "Julianas de lomo y pimienta del Putumayo en su salsa.",
+          "precio": "$44.900",
+          "id": "lomito-pimienta"
+        },
+        {
+          "nombre": "Palmitos",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa (Marco Polo).",
+          "precio": "$35.900",
+          "id": "palmitos"
+        },
+        {
+          "nombre": "Calamares",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa (Marco Polo).",
+          "precio": "$40.700",
+          "id": "calamares"
+        },
+        {
+          "nombre": "Camarones",
+          "descripcion": "Al Curry, al Ajillo o en Salsa de la Casa (Marco Polo). 1 Pídelo con ensalada verde, vinagre balsámico y aceite de oliva. Valor adicional: $6.400",
+          "precio": "$45.900",
+          "id": "camarones"
+        }
+      ],
+      "nota": "Delicioso pan francés redondo, relleno con cualquiera de nuestras opciones:"
+    },
+    {
+      "seccion": "ENSALADAS",
+      "pagina": 5,
+      "items": [
+        {
+          "nombre": "Cesar",
+          "descripcion": "La clásica ensalada con crutones, tomates cherry y queso parmesano. Acompañada con pan centeno.",
+          "precio": null,
+          "id": "cesar"
+        },
+        {
+          "nombre": "Con Pollo",
+          "precio": "$29.500",
+          "id": "con-pollo"
+        },
+        {
+          "nombre": "Con Salmón Ahumado",
+          "precio": "$41.900",
+          "id": "con-salmon-ahumado"
+        },
+        {
+          "nombre": "Florentina",
+          "descripcion": "Mozzarellina, variedad de lechugas frescas, albahaca fresca, tomates secos, frescos y cherry, champiñones, pesto, aguacate, aceitunas negras y vinagre balsámico.",
+          "precio": "$35.500",
+          "id": "florentina"
+        },
+        {
+          "nombre": "Thai",
+          "descripcion": "Pechuga de pavo con ajonjolí y albahaca, variedad de lechugas frescas, rúgula, apio, champiñones, pimentón, tomate cherry, cebollas crocantes y una vinagreta oriental.",
+          "precio": "$36.200",
+          "id": "thai"
+        },
+        {
+          "nombre": "Mediterránea",
+          "descripcion": "Camarones, calamares, pesto, variedad de lechugas frescas, apio, champiñones, cebolla roja, aceitunas negras, vinagreta balsámica y cebollas crocantes.",
+          "precio": "$42.900",
+          "id": "mediterranea"
+        },
+        {
+          "nombre": "Marroquí",
+          "descripcion": "Couscous preparado con especias, aguacate, chutney de mango, quinua tostada y ensalada verde con vinagreta marroquí.",
+          "precio": null,
+          "id": "marroqui"
+        },
+        {
+          "nombre": "Con Camarón",
+          "precio": "$42.900",
+          "id": "con-camaron"
+        },
+        {
+          "nombre": "Con Pollo",
+          "precio": "$29.200",
+          "id": "con-pollo"
+        },
+        {
+          "nombre": "Tuna Salad",
+          "descripcion": "Atún ventresca, variedad de lechugas frescas, rúgula, pepino, albahaca, champiñones, apio, aguacate, tomate cherry, aceitunas negras y vinagreta de finas hierbas. Acompañado con pan árabe.",
+          "precio": "$40.900",
+          "id": "tuna-salad"
+        },
+        {
+          "nombre": "Valparaíso",
+          "descripcion": "Filete de salmón ahumado con merkén, acompañado de quinua negra, kale con queso parmesano y Grana Padano, picadillo de tomate, aguacate y vinagreta árabe.",
+          "precio": "$42.900",
+          "id": "valparaiso"
+        },
+        {
+          "nombre": "Torina",
+          "descripcion": "Mozzarellina envuelta en jamón serrano con cebollas caramelizadas y pimienta, variedad de lechugas, rúgula, tomate cherry y vinagreta a base de mostaza Dijón.",
+          "precio": "$38.500",
+          "id": "torina"
+        }
+      ]
+    },
+    {
+      "seccion": "JUGOS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Mora",
+          "precio": "$7.900",
+          "id": "mora"
+        },
+        {
+          "nombre": "Mango",
+          "precio": "$8.200",
+          "id": "mango"
+        },
+        {
+          "nombre": "Mandarina",
+          "precio": "$10.200",
+          "id": "mandarina"
+        },
+        {
+          "nombre": "Fresa",
+          "precio": "$8.300",
+          "id": "fresa"
+        },
+        {
+          "nombre": "Guanábana",
+          "descripcion": "Jugo natural en leche.",
+          "precio": "$8.500",
+          "id": "guanabana"
+        },
+        {
+          "nombre": "Feijoa",
+          "precio": "$7.900",
+          "id": "feijoa"
+        },
+        {
+          "nombre": "Durazno",
+          "precio": "$8.900",
+          "id": "durazno"
+        },
+        {
+          "nombre": "Frambuesa",
+          "precio": "$10.500",
+          "id": "frambuesa"
+        }
+      ]
+    },
+    {
+      "seccion": "LIMONADAS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Natural",
+          "precio": "$6.900",
+          "id": "natural"
+        },
+        {
+          "nombre": "Limón Mandarino",
+          "precio": "$7.900",
+          "id": "limon-mandarino"
+        },
+        {
+          "nombre": "Hierbabuena",
+          "precio": "$8.300",
+          "id": "hierbabuena"
+        },
+        {
+          "nombre": "Mango Biche",
+          "precio": "$9.600",
+          "id": "mango-biche"
+        },
+        {
+          "nombre": "Coco",
+          "precio": "$11.600",
+          "id": "coco"
+        }
+      ]
+    },
+    {
+      "seccion": "BATIDOS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Piña, Jengibre y Hierbabuena",
+          "precio": "$9.900",
+          "id": "pina-jengibre-y-hierbabuena"
+        },
+        {
+          "nombre": "Alegría",
+          "descripcion": "Mezcla de frutas del campo: mango, maracuyá y piña.",
+          "precio": "$11.200",
+          "id": "alegria"
+        },
+        {
+          "nombre": "Bienestar",
+          "descripcion": "Mezcla de frutas del campo: manzana, pera, feijoa y hierbabuena.",
+          "precio": "$11.200",
+          "id": "bienestar"
+        }
+      ]
+    },
+    {
+      "seccion": "OTRAS BEBIDAS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Agua Manantial®",
+          "precio": "$7.500",
+          "id": "agua-manantial"
+        },
+        {
+          "nombre": "Agua Manantial® con Gas",
+          "precio": "$7.200",
+          "id": "agua-manantial-con-gas"
+        },
+        {
+          "nombre": "Gaseosas",
+          "descripcion": "Coca-Cola® original, Coca-Cola® zero, Sprite® o Kola Roman®.",
+          "precio": "$6.500",
+          "id": "gaseosas"
+        }
+      ]
+    },
+    {
+      "seccion": "CERVEZAS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Club Colombia",
+          "precio": "$10.900",
+          "id": "club-colombia"
+        },
+        {
+          "nombre": "Stella Artois",
+          "precio": "$13.300",
+          "id": "stella-artois"
+        }
+      ]
+    },
+    {
+      "seccion": "VINOS",
+      "pagina": 6,
+      "items": [
+        {
+          "nombre": "Vino AMORETINTO - Tinto",
+          "descripcion": "Cepa: Merlot | Origen: Chile",
+          "precio": null,
+          "id": "vino-amoretinto-tinto"
+        },
+        {
+          "nombre": "Media Botella",
+          "precio": "$68.500",
+          "id": "media-botella"
+        },
+        {
+          "nombre": "Botella",
+          "precio": "$109.500",
+          "id": "botella"
+        },
+        {
+          "nombre": "Vino AMORETINTO -  Blanco",
+          "descripcion": "Cepa: Gewurstraminier | Origen: Chile",
+          "precio": null,
+          "id": "vino-amoretinto-blanco"
+        },
+        {
+          "nombre": "Media Botella",
+          "precio": "$68.500",
+          "id": "media-botella"
+        },
+        {
+          "nombre": "Botella",
+          "precio": "$109.500",
+          "id": "botella"
+        },
+        {
+          "nombre": "Vino Prosecco",
+          "descripcion": "Cepa: Glera | Origen: Italia",
+          "precio": null,
+          "id": "vino-prosecco"
+        },
+        {
+          "nombre": "Media Botella",
+          "precio": "$83.000",
+          "id": "media-botella"
+        },
+        {
+          "nombre": "Botella",
+          "precio": "$118.500",
+          "id": "botella"
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES DULCES",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "nutella",
+          "nombre": "Nutella®",
+          "descripcion": "Crepe de Nutella® con crema chantilly. Pídelo también con:",
+          "precio": "$16.900",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "nutella-fresas",
+          "nombre": "Fresas",
+          "descripcion": "Variante del crepe de Nutella®.",
+          "precio": "$17.600"
+        },
+        {
+          "id": "nutella-banano",
+          "nombre": "Banano",
+          "descripcion": "Variante del crepe de Nutella®.",
+          "precio": "$17.600"
+        },
+        {
+          "id": "chocolate-fondue",
+          "nombre": "Chocolate Fondue",
+          "descripcion": "Crepe con fresas y banano, helado de Vainilla, crema chantilly y chocolate.",
+          "precio": "$14.800"
+        },
+        {
+          "id": "baby-doll",
+          "nombre": "Baby Doll",
+          "descripcion": "Banano fresco, helado de Vainilla, nueces, chocolate caliente y crema chantilly.",
+          "precio": "$15.600",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "mont-blanc",
+          "nombre": "Mont Blanc",
+          "descripcion": "Crepe con chocolate blanco, fresas y crema chantilly.",
+          "precio": "$17.800"
+        },
+        {
+          "id": "cleopatra",
+          "nombre": "Cleopatra",
+          "descripcion": "Crepe con tajadas de banano y fresa, helado de Mora, crema chantilly y salsa de uva e inglesa.",
+          "precio": "$14.600"
+        }
+      ]
+    },
+    {
+      "seccion": "WAFFLES DE DULCE",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "mantequilla-y-syrup-o-miel",
+          "nombre": "Mantequilla y Syrup o Miel",
+          "precio": "$11.200"
+        },
+        {
+          "id": "sencillo-con-crema-chantilly",
+          "nombre": "Sencillo con Crema Chantilly",
+          "descripcion": "Pídelo con una de nuestras salsas de dulce: arequipe, chocolate, melocotón, inglesa, piña, caramelo, agrás o crema de limón.",
+          "precio": "$14.200"
+        },
+        {
+          "id": "sencillo-con-helado",
+          "nombre": "Sencillo con Helado",
+          "descripcion": "Pídelo con una de nuestras salsas de dulce: arequipe, chocolate, melocotón, inglesa, piña, caramelo, agrás o crema de limón.",
+          "precio": "$15.600"
+        },
+        {
+          "id": "especial",
+          "nombre": "Especial",
+          "descripcion": "Con helado y crema chantilly. Escoge tres o cuatro salsas diferentes: arequipe, chocolate, melocotón, inglesa, piña, frutos del bosque, caramelo, jagrás o crema de limón.",
+          "precio": "$17.900"
+        },
+        {
+          "id": "arequipe",
+          "nombre": "Arequipe",
+          "descripcion": "Con salsa de arequipe, helado de Vainilla y Arequipe con crema chantilly.",
+          "precio": "$14.600"
+        },
+        {
+          "id": "arequipe-y-banano",
+          "nombre": "Arequipe y Banano",
+          "descripcion": "Tajadas de banano fresco con salsa de arequipe, helado de Vainilla y Arequipe con crema chantilly.",
+          "precio": "$14.900"
+        },
+        {
+          "id": "nutella",
+          "nombre": "Nutella®",
+          "descripcion": "Con helado de Vainilla y crema chantilly.",
+          "precio": "$17.600",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "nutella-y-banano",
+          "nombre": "Nutella® y Banano",
+          "descripcion": "Tajadas de banano fresco, helado Old Style y crema chantilly.",
+          "precio": "$17.900",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "frutos-del-bosque",
+          "nombre": "Frutos del Bosque",
+          "descripcion": "Con helado de Vainilla y crema chantilly.",
+          "precio": "$15.600"
+        }
+      ]
+    },
+    {
+      "seccion": "MINI WAFFLES DE DULCE",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "mantequilla-y-syrup-o-miel",
+          "nombre": "Mantequilla y Syrup o Miel",
+          "precio": "$11.200"
+        },
+        {
+          "id": "arequipe",
+          "nombre": "Arequipe",
+          "descripcion": "Con helado de Vainilla y crema chantilly.",
+          "precio": "$14.600"
+        },
+        {
+          "id": "chocolate",
+          "nombre": "Chocolate",
+          "descripcion": "Con helado de Vainilla y crema chantilly.",
+          "precio": "$14.600"
+        },
+        {
+          "id": "nutella",
+          "nombre": "Nutella®",
+          "descripcion": "Con helado de Vainilla y crema chantilly.",
+          "precio": "$17.600",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "frutos-del-bosque",
+          "nombre": "Frutos del Bosque",
+          "descripcion": "Frutos del bosque con helado de Vainilla y crema chantilly.",
+          "precio": "$15.600",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "WAFFLES DE SAL",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "waffle-d-choclo",
+          "nombre": "Waffle D'Choclo",
+          "descripcion": "Waffle de maíz relleno de queso, con queso 7 cueros y suero costeño.",
+          "precio": "$16.500",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "mini-waffle-d-yuca",
+          "nombre": "Mini Waffle D'Yuca",
+          "descripcion": "Un mini waffle con mantequilla, panela orgánica molida y jalea de guayaba.",
+          "precio": "$8.900",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "pidelo-con-doble-mini-waffles",
+          "nombre": "Pídelo con doble Mini Waffles",
+          "precio": "$15.900"
+        }
+      ]
+    },
+    {
+      "seccion": "GOFRES",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "nutella",
+          "nombre": "Nutella®",
+          "precio": "$17.900",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "especial",
+          "nombre": "Especial",
+          "descripcion": "Con helado y crema chantilly. Escoge dos salsas diferentes: arequipe, chocolate, Nutella®, frutos del bosque.",
+          "precio": "$18.700"
+        },
+        {
+          "id": "chocolate",
+          "nombre": "Chocolate",
+          "precio": "$14.100"
+        },
+        {
+          "id": "arequipe",
+          "nombre": "Arequipe",
+          "precio": "$14.600"
+        },
+        {
+          "id": "chocolate-blanco",
+          "nombre": "Chocolate Blanco",
+          "precio": "$14.400"
+        },
+        {
+          "id": "caramelo",
+          "nombre": "Caramelo",
+          "precio": "$8.400"
+        },
+        {
+          "id": "frutos-del-bosque",
+          "nombre": "Frutos del Bosque",
+          "precio": "$14.500"
+        },
+        {
+          "id": "mantequilla-y-syrup",
+          "nombre": "Mantequilla y Syrup",
+          "precio": "$9.900"
+        }
+      ]
+    },
+    {
+      "seccion": "COPAS GOURMET",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "copa-limena",
+          "nombre": "Copa Limeña",
+          "descripcion": "Helado de Vainilla con salsa de arequipe, frutos del bosque, merengue, copos de guanábana y crema chantilly.",
+          "precio": "$16.800"
+        }
+      ]
+    },
+    {
+      "seccion": "GLASÉS DECO",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "banana-split",
+          "nombre": "Banana Split",
+          "descripcion": "Clásica combinación de helado de Vainilla, Fresa y Chocolate. Acompañado de crema chantilly, nueces, banano, salsa de chocolate y arequipe.",
+          "precio": "$17.500",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "AMANTES DEL CHOCOLATE",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "tarta-de-chocolate-y-fudge",
+          "nombre": "Tarta de Chocolate y Fudge",
+          "descripcion": "Fusión de helado de Chocolate y Coffee Toffee con fudge de chocolate, en una base de almendras tostadas y crocante italiano.",
+          "precio": "$15.500",
+          "alergenos": [
+            "CONTIENE NUECES / MANÍ"
+          ]
+        },
+        {
+          "id": "vainilla-hot-chocolate",
+          "nombre": "Vainilla Hot Chocolate",
+          "descripcion": "Helado Old Style, almendras tostadas entre crema chantilly y chocolate caliente con el que le darás gusto a tu gusto.",
+          "precio": "$14.900",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "ITALIANOS",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "tiramisu",
+          "nombre": "Tiramisú",
+          "descripcion": "Composición italiana de helado de Old Style, bizcochuelo bañado con cogñac, entonado con salsas inglesa, chocolate y de café.",
+          "precio": "$14.900"
+        },
+        {
+          "id": "vesubio",
+          "nombre": "Vesubio",
+          "descripcion": "Clásica combinación italiana de helado de Fresa, Vainilla y Limón, bañado con salsa de uva y crema chantilly.",
+          "precio": "$11.900"
+        },
+        {
+          "id": "capri",
+          "nombre": "Capri",
+          "descripcion": "Dulce sensación de helado de Vainilla sobre una crujiente galleta mantequilla, con salsas de arequipe, uva y crema chantilly.",
+          "precio": "$12.200"
+        }
+      ]
+    },
+    {
+      "seccion": "DELIZZIA",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "capricho-de-maracuya",
+          "nombre": "Capricho de Maracuyá",
+          "descripcion": "Helado de Yogurt de Maracuyá con coulis de maracuyá, fresas, melocotones, galleta de mantequilla y el crujiente de la galleta de encaje.",
+          "precio": "$15.800"
+        },
+        {
+          "id": "tentacion",
+          "nombre": "Tentación",
+          "descripcion": "Bizcochuelo bañado con un toque de licor que exalta el sabor del helado de Vainilla, Coffee Toffee y Chocolate. Combina sutilmente con salsa de chocolate, nueces y crema chantilly.",
+          "precio": "$16.900",
+          "alergenos": [
+            "CONTIENE NUECES / MANÍ"
+          ]
+        },
+        {
+          "id": "festival",
+          "nombre": "Festival",
+          "descripcion": "Bizcochuelo acompañado de helados de Mora, Fresa, Maracuyá, Limón y Vainilla, con trocitos de banano, fresas frescas, salsa de uva y crema chantilly.",
+          "precio": "$22.900"
+        },
+        {
+          "id": "filosofia-acaramelada",
+          "nombre": "Filosofía Acaramelada",
+          "descripcion": "Donde el helado de Vainilla en crocante de macadamias y almendras, las tajadas de banano y la salsa de caramelo, se unen para darle sentido y sabor a la vida.",
+          "precio": "$11.900",
+          "alergenos": [
+            "CONTIENE NUECES / MANÍ"
+          ]
+        },
+        {
+          "id": "merengue-glaze",
+          "nombre": "Merengue Glazé",
+          "descripcion": "Merengue y helado de Vainilla, juegan con la salsa de chocolate caliente, nueces y crema chantilly para proporcionar solo placer.",
+          "precio": "$16.500",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "copa-melocoton",
+          "nombre": "Copa Melocotón",
+          "descripcion": "Helado de Vainilla y Yogurt de Maracuyá con melocotones tajados, coulis de maracuyá, crema chantilly y crujiente galleta de encaje.",
+          "precio": "$15.600"
+        }
+      ]
+    },
+    {
+      "seccion": "COPAS Y COPAS",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "banana-royal",
+          "nombre": "Banana Royal",
+          "descripcion": "Alucinante mezcla de helado de Vainilla y Chocolate con tajadas de fresa, banano, salsa de chocolate caliente, crujiente galleta de encaje y crema chantilly.",
+          "precio": "$14.900"
+        },
+        {
+          "id": "suprema",
+          "nombre": "Suprema",
+          "descripcion": "Helado de Vainilla y tajaditas de banano entre crema chantilly, bañadas con salsa de chocolate y arequipe, mini cono de galleta y nueces.",
+          "precio": "$15.800",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "dama-blanca",
+          "nombre": "Dama Blanca",
+          "descripcion": "Helado de Vainilla y Chocolate acompañado con salsa de chocolate, nueces y crema chantilly.",
+          "precio": "$11.900",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "alaska",
+          "nombre": "Alaska",
+          "descripcion": "Profiterol con salsa inglesa, helado de Vainilla y Mora, con salsa de uva y crema chantilly.",
+          "precio": "$15.900"
+        },
+        {
+          "id": "brownie",
+          "nombre": "Brownie",
+          "descripcion": "Helado de Vainilla mezclado con trozos de brownie, salsa de caramelo y chocolate.",
+          "precio": "$12.900"
+        },
+        {
+          "id": "dulce-encanto",
+          "nombre": "Dulce Encanto",
+          "descripcion": "Bizcochuelo bañado en salsa inglesa y arequipe, con helado Cocado, tartufino de chocolate y crujiente galleta de encaje.",
+          "precio": "$15.800",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "HELADOS DE TEMPORADA",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "nota": "Sabores que vuelven para hacerte sonreír. Disponibles únicamente en tamaño de 470 ml.",
+      "items": [
+        {
+          "id": "dulce-de-leche-470ml",
+          "nombre": "Dulce de Leche 470ml",
+          "descripcion": "Helado de Dulce de Leche argentino con stracciatella.",
+          "precio": "$39.000"
+        },
+        {
+          "id": "maracuya-stracciatella-470ml",
+          "nombre": "Maracuyá Stracciatella 470ml",
+          "descripcion": "Nuestro helado Pasión Tropical. Helado de Maracuyá en agua con trozos de chocolate oscuro y vetas de maracuyá.",
+          "precio": "$28.500"
+        },
+        {
+          "id": "yogurt-de-guayaba-470ml",
+          "nombre": "Yogurt de Guayaba 470ml",
+          "descripcion": "Helado de Yogurt con vetas de guayaba.",
+          "precio": "$22.000"
+        },
+        {
+          "id": "vainilla-chocoalmond-470ml",
+          "nombre": "Vainilla Chocoalmond 470ml",
+          "descripcion": "Helado de Vainilla con almendras tostadas y fudge de chocolate.",
+          "precio": "$24.000",
+          "alergenos": [
+            "CONTIENE NUECES"
+          ]
+        },
+        {
+          "id": "lulada-470ml",
+          "nombre": "Lulada 470ml",
+          "descripcion": "Helado de Lulo en agua.",
+          "precio": "$20.500"
+        },
+        {
+          "id": "yogurt-griego-con-amarenas",
+          "nombre": "Yogurt Griego con Amarenas",
+          "descripcion": "Helado de Yogurt Griego con cerezas amarenas italianas.",
+          "precio": "$26.000"
+        }
+      ]
+    },
+    {
+      "seccion": "INFANTILES",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "helado-piggy",
+          "nombre": "Helado Piggy",
+          "descripcion": "Con helado de Chicle.",
+          "precio": "$9.800"
+        },
+        {
+          "id": "samy",
+          "nombre": "Samy",
+          "descripcion": "Pingüino con helado de Vainilla.",
+          "precio": "$9.800"
+        }
+      ]
+    },
+    {
+      "seccion": "SABORES DE HELADO",
+      "pagina": 7,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [],
+      "opciones": [
+        {
+          "grupo": "Sabores de helado",
+          "valores": [
+            "Almendra (CONTIENE NUECES)",
+            "Arequipe",
+            "Avellana (CONTIENE NUECES)",
+            "Brownie",
+            "Cheesecake de Limón",
+            "Chicle",
+            "Choco Rochelle (CONTIENE NUECES / MANÍ)",
+            "Chocolate",
+            "Chocolate sin Azúcar añadido",
+            "Cocado",
+            "Coffee Toffee (CONTIENE NUECES)",
+            "Crocante (CONTIENE NUECES)",
+            "Dulce Tumaco",
+            "Fresa",
+            "Fresa sin Azúcar añadido",
+            "Galleta",
+            "Limón (VEGANO)",
+            "Maracuyá (VEGANO)",
+            "Mora (VEGANO)",
+            "Pistacho (CONTIENE NUECES)",
+            "Ron con Pasas",
+            "Vainilla",
+            "Vainilla sin Azúcar añadido",
+            "Old Style",
+            "Yogurt de Curuba Light",
+            "Yogurt de Frutos del Bosque",
+            "Yogurt de Maracuyá"
+          ]
+        },
+        {
+          "grupo": "Helados Veganos (*Leche vegetal)",
+          "valores": [
+            "Cacao Nibs Crunch (CONTIENE NUECES)",
+            "Limonada de Coco (VEGANO)"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — VINAGRETAS",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "nota": "Presentación de 250 ml.",
+      "items": [
+        {
+          "id": "vinagreta-balsamico",
+          "nombre": "Vinagreta Balsámico",
+          "descripcion": "Perfecta mezcla de vinagre balsámico, aceite de oliva y miel.",
+          "precio": "$23.300",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "vinagreta-oriental",
+          "nombre": "Vinagreta Oriental",
+          "descripcion": "Mezcla de vinagres, mostaza y un toque agridulce.",
+          "precio": "$23.300",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "vinagreta-mostaza",
+          "nombre": "Vinagreta Mostaza",
+          "descripcion": "Vinagreta donde la mostaza es protagonista. ¡Úsala para acompañar lo que más te guste!",
+          "precio": "$23.300",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — SOPAS",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "covarachia",
+          "nombre": "Covarachía",
+          "precio": "$14.900",
+          "precios": {
+            "500ml": "$14.900",
+            "1lt": "$20.500"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ],
+          "notas": [
+            "LIGERAMENTE PICANTE"
+          ]
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": "$16.200",
+          "precios": {
+            "500ml": "$16.200",
+            "1lt": "$25.000"
+          }
+        },
+        {
+          "id": "espinaca",
+          "nombre": "Espinaca",
+          "precio": "$14.900",
+          "precios": {
+            "500ml": "$14.900",
+            "1lt": "$20.500"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "lentejas",
+          "nombre": "Lentejas",
+          "precio": "$19.300",
+          "precios": {
+            "500ml": "$19.300",
+            "1lt": "$32.800"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ]
+        },
+        {
+          "id": "vida-en-verdes",
+          "nombre": "Vida en Verdes",
+          "precio": "$18.000",
+          "precios": {
+            "500ml": "$18.000",
+            "1lt": "$30.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "soy-otono",
+          "nombre": "Soy Otoño",
+          "precio": "$15.900",
+          "precios": {
+            "500ml": "$15.900",
+            "1lt": "$26.200"
+          },
+          "dieta": [
+            "VEGANO"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — SALSAS",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "hogao",
+          "nombre": "Hogao",
+          "precio": "$10.900",
+          "precios": {
+            "250ml": "$10.900",
+            "500ml": "$16.900"
+          },
+          "dieta": [
+            "VEGANO"
+          ]
+        },
+        {
+          "id": "pesto",
+          "nombre": "Pesto",
+          "precio": "$24.000",
+          "precios": {
+            "250ml": "$24.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ],
+          "alergenos": [
+            "CONTIENE NUECES / MANÍ"
+          ]
+        },
+        {
+          "id": "curry",
+          "nombre": "Curry",
+          "precio": "$24.900",
+          "precios": {
+            "500ml": "$24.900",
+            "1lt": "$40.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "napolitana",
+          "nombre": "Napolitana",
+          "precio": "$17.900",
+          "precios": {
+            "500ml": "$17.900",
+            "1lt": "$30.000"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ]
+        },
+        {
+          "id": "salsa-de-la-casa",
+          "nombre": "Salsa de la Casa",
+          "precio": "$30.800",
+          "precios": {
+            "500ml": "$30.800",
+            "1lt": "$48.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "salsa-champinones",
+          "nombre": "Salsa Champiñones",
+          "precio": "$25.000",
+          "precios": {
+            "500ml": "$25.000",
+            "1lt": "$40.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "mexicana",
+          "nombre": "Mexicana",
+          "precio": "$17.900",
+          "precios": {
+            "500ml": "$17.900",
+            "1lt": "$30.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "parmesana",
+          "nombre": "Parmesana",
+          "precio": "$30.800",
+          "precios": {
+            "500ml": "$30.800",
+            "1lt": "$52.500"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — SALSAS CON PROTEÍNA",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "stroganoff",
+          "nombre": "Stroganoff",
+          "precio": "$49.900",
+          "precios": {
+            "500ml": "$49.900"
+          }
+        },
+        {
+          "id": "lomito-pimienta",
+          "nombre": "Lomito Pimienta",
+          "precio": "$56.000",
+          "precios": {
+            "500ml": "$56.000"
+          }
+        },
+        {
+          "id": "pollo",
+          "nombre": "Pollo",
+          "precio": "$38.500",
+          "precios": {
+            "500ml": "$38.500"
+          }
+        },
+        {
+          "id": "pollo-thai",
+          "nombre": "Pollo Thai",
+          "precio": "$38.900",
+          "precios": {
+            "500ml": "$38.900"
+          }
+        },
+        {
+          "id": "cochinita-pibil",
+          "nombre": "Cochinita Pibil",
+          "precio": "$37.900",
+          "precios": {
+            "500ml": "$37.900"
+          }
+        },
+        {
+          "id": "carne-desmechada",
+          "nombre": "Carne Desmechada",
+          "precio": "$40.000",
+          "precios": {
+            "500ml": "$40.000"
+          }
+        },
+        {
+          "id": "bolonesa",
+          "nombre": "Boloñesa",
+          "precio": "$25.700",
+          "precios": {
+            "500ml": "$25.700",
+            "1lt": "$40.000"
+          }
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — SABORES DULCES",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "items": [
+        {
+          "id": "arequipe",
+          "nombre": "Arequipe",
+          "precio": "$11.800",
+          "precios": {
+            "250ml": "$11.800",
+            "500ml": "$20.000"
+          },
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "salsa-frutos-del-bosque",
+          "nombre": "Salsa Frutos del Bosque",
+          "precio": "$15.800",
+          "precios": {
+            "250ml": "$15.800",
+            "500ml": "$24.700"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ]
+        },
+        {
+          "id": "coulis-de-maracuya",
+          "nombre": "Coulis de Maracuyá",
+          "precio": "$18.000",
+          "precios": {
+            "250ml": "$18.000",
+            "500ml": "$24.000"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ]
+        },
+        {
+          "id": "jalea-de-guayaba",
+          "nombre": "Jalea de Guayaba",
+          "precio": "$15.900",
+          "precios": {
+            "250ml": "$15.900",
+            "500ml": "$25.900"
+          },
+          "dieta": [
+            "VEGETARIANO",
+            "VEGANO"
+          ]
+        }
+      ]
+    },
+    {
+      "seccion": "CREPES EN CASA — MASAS",
+      "pagina": 8,
+      "origen": "transcripcion visual (pagina sin capa de texto)",
+      "nota": "¡Disfruta nuestra masas listas para preparar pancakes o waffles en casa! Presentación de 500 ml.",
+      "items": [
+        {
+          "id": "masa-waffle",
+          "nombre": "Masa Waffle",
+          "precio": "$13.400",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "masa-de-yuca",
+          "nombre": "Masa de Yuca",
+          "precio": "$26.800",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        },
+        {
+          "id": "masa-de-choclo",
+          "nombre": "Masa de Choclo",
+          "precio": "$24.800",
+          "dieta": [
+            "VEGETARIANO"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_items": 249
+}

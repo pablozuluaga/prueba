@@ -1,0 +1,252 @@
+[
+  {
+    "seccion": "CREPES DULCES",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "nutella", "nombre": "Nutella®", "descripcion": "Crepe de Nutella® con crema chantilly. Pídelo también con:", "precio": "$16.900", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "nutella-fresas", "nombre": "Fresas", "descripcion": "Variante del crepe de Nutella®.", "precio": "$17.600"},
+      {"id": "nutella-banano", "nombre": "Banano", "descripcion": "Variante del crepe de Nutella®.", "precio": "$17.600"},
+      {"id": "chocolate-fondue", "nombre": "Chocolate Fondue", "descripcion": "Crepe con fresas y banano, helado de Vainilla, crema chantilly y chocolate.", "precio": "$14.800"},
+      {"id": "baby-doll", "nombre": "Baby Doll", "descripcion": "Banano fresco, helado de Vainilla, nueces, chocolate caliente y crema chantilly.", "precio": "$15.600", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "mont-blanc", "nombre": "Mont Blanc", "descripcion": "Crepe con chocolate blanco, fresas y crema chantilly.", "precio": "$17.800"},
+      {"id": "cleopatra", "nombre": "Cleopatra", "descripcion": "Crepe con tajadas de banano y fresa, helado de Mora, crema chantilly y salsa de uva e inglesa.", "precio": "$14.600"}
+    ]
+  },
+  {
+    "seccion": "WAFFLES DE DULCE",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "mantequilla-y-syrup-o-miel", "nombre": "Mantequilla y Syrup o Miel", "precio": "$11.200"},
+      {"id": "sencillo-con-crema-chantilly", "nombre": "Sencillo con Crema Chantilly", "descripcion": "Pídelo con una de nuestras salsas de dulce: arequipe, chocolate, melocotón, inglesa, piña, caramelo, agrás o crema de limón.", "precio": "$14.200"},
+      {"id": "sencillo-con-helado", "nombre": "Sencillo con Helado", "descripcion": "Pídelo con una de nuestras salsas de dulce: arequipe, chocolate, melocotón, inglesa, piña, caramelo, agrás o crema de limón.", "precio": "$15.600"},
+      {"id": "especial", "nombre": "Especial", "descripcion": "Con helado y crema chantilly. Escoge tres o cuatro salsas diferentes: arequipe, chocolate, melocotón, inglesa, piña, frutos del bosque, caramelo, jagrás o crema de limón.", "precio": "$17.900"},
+      {"id": "arequipe", "nombre": "Arequipe", "descripcion": "Con salsa de arequipe, helado de Vainilla y Arequipe con crema chantilly.", "precio": "$14.600"},
+      {"id": "arequipe-y-banano", "nombre": "Arequipe y Banano", "descripcion": "Tajadas de banano fresco con salsa de arequipe, helado de Vainilla y Arequipe con crema chantilly.", "precio": "$14.900"},
+      {"id": "nutella", "nombre": "Nutella®", "descripcion": "Con helado de Vainilla y crema chantilly.", "precio": "$17.600", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "nutella-y-banano", "nombre": "Nutella® y Banano", "descripcion": "Tajadas de banano fresco, helado Old Style y crema chantilly.", "precio": "$17.900", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "frutos-del-bosque", "nombre": "Frutos del Bosque", "descripcion": "Con helado de Vainilla y crema chantilly.", "precio": "$15.600"}
+    ]
+  },
+  {
+    "seccion": "MINI WAFFLES DE DULCE",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "mantequilla-y-syrup-o-miel", "nombre": "Mantequilla y Syrup o Miel", "precio": "$11.200"},
+      {"id": "arequipe", "nombre": "Arequipe", "descripcion": "Con helado de Vainilla y crema chantilly.", "precio": "$14.600"},
+      {"id": "chocolate", "nombre": "Chocolate", "descripcion": "Con helado de Vainilla y crema chantilly.", "precio": "$14.600"},
+      {"id": "nutella", "nombre": "Nutella®", "descripcion": "Con helado de Vainilla y crema chantilly.", "precio": "$17.600", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "frutos-del-bosque", "nombre": "Frutos del Bosque", "descripcion": "Frutos del bosque con helado de Vainilla y crema chantilly.", "precio": "$15.600", "alergenos": ["CONTIENE NUECES"]}
+    ]
+  },
+  {
+    "seccion": "WAFFLES DE SAL",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "waffle-d-choclo", "nombre": "Waffle D'Choclo", "descripcion": "Waffle de maíz relleno de queso, con queso 7 cueros y suero costeño.", "precio": "$16.500", "dieta": ["VEGETARIANO"]},
+      {"id": "mini-waffle-d-yuca", "nombre": "Mini Waffle D'Yuca", "descripcion": "Un mini waffle con mantequilla, panela orgánica molida y jalea de guayaba.", "precio": "$8.900", "dieta": ["VEGETARIANO"]},
+      {"id": "pidelo-con-doble-mini-waffles", "nombre": "Pídelo con doble Mini Waffles", "precio": "$15.900"}
+    ]
+  },
+  {
+    "seccion": "GOFRES",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "nutella", "nombre": "Nutella®", "precio": "$17.900", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "especial", "nombre": "Especial", "descripcion": "Con helado y crema chantilly. Escoge dos salsas diferentes: arequipe, chocolate, Nutella®, frutos del bosque.", "precio": "$18.700"},
+      {"id": "chocolate", "nombre": "Chocolate", "precio": "$14.100"},
+      {"id": "arequipe", "nombre": "Arequipe", "precio": "$14.600"},
+      {"id": "chocolate-blanco", "nombre": "Chocolate Blanco", "precio": "$14.400"},
+      {"id": "caramelo", "nombre": "Caramelo", "precio": "$8.400"},
+      {"id": "frutos-del-bosque", "nombre": "Frutos del Bosque", "precio": "$14.500"},
+      {"id": "mantequilla-y-syrup", "nombre": "Mantequilla y Syrup", "precio": "$9.900"}
+    ]
+  },
+  {
+    "seccion": "COPAS GOURMET",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "copa-limena", "nombre": "Copa Limeña", "descripcion": "Helado de Vainilla con salsa de arequipe, frutos del bosque, merengue, copos de guanábana y crema chantilly.", "precio": "$16.800"}
+    ]
+  },
+  {
+    "seccion": "GLASÉS DECO",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "banana-split", "nombre": "Banana Split", "descripcion": "Clásica combinación de helado de Vainilla, Fresa y Chocolate. Acompañado de crema chantilly, nueces, banano, salsa de chocolate y arequipe.", "precio": "$17.500", "alergenos": ["CONTIENE NUECES"]}
+    ]
+  },
+  {
+    "seccion": "AMANTES DEL CHOCOLATE",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "tarta-de-chocolate-y-fudge", "nombre": "Tarta de Chocolate y Fudge", "descripcion": "Fusión de helado de Chocolate y Coffee Toffee con fudge de chocolate, en una base de almendras tostadas y crocante italiano.", "precio": "$15.500", "alergenos": ["CONTIENE NUECES / MANÍ"]},
+      {"id": "vainilla-hot-chocolate", "nombre": "Vainilla Hot Chocolate", "descripcion": "Helado Old Style, almendras tostadas entre crema chantilly y chocolate caliente con el que le darás gusto a tu gusto.", "precio": "$14.900", "alergenos": ["CONTIENE NUECES"]}
+    ]
+  },
+  {
+    "seccion": "ITALIANOS",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "tiramisu", "nombre": "Tiramisú", "descripcion": "Composición italiana de helado de Old Style, bizcochuelo bañado con cogñac, entonado con salsas inglesa, chocolate y de café.", "precio": "$14.900"},
+      {"id": "vesubio", "nombre": "Vesubio", "descripcion": "Clásica combinación italiana de helado de Fresa, Vainilla y Limón, bañado con salsa de uva y crema chantilly.", "precio": "$11.900"},
+      {"id": "capri", "nombre": "Capri", "descripcion": "Dulce sensación de helado de Vainilla sobre una crujiente galleta mantequilla, con salsas de arequipe, uva y crema chantilly.", "precio": "$12.200"}
+    ]
+  },
+  {
+    "seccion": "DELIZZIA",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "capricho-de-maracuya", "nombre": "Capricho de Maracuyá", "descripcion": "Helado de Yogurt de Maracuyá con coulis de maracuyá, fresas, melocotones, galleta de mantequilla y el crujiente de la galleta de encaje.", "precio": "$15.800"},
+      {"id": "tentacion", "nombre": "Tentación", "descripcion": "Bizcochuelo bañado con un toque de licor que exalta el sabor del helado de Vainilla, Coffee Toffee y Chocolate. Combina sutilmente con salsa de chocolate, nueces y crema chantilly.", "precio": "$16.900", "alergenos": ["CONTIENE NUECES / MANÍ"]},
+      {"id": "festival", "nombre": "Festival", "descripcion": "Bizcochuelo acompañado de helados de Mora, Fresa, Maracuyá, Limón y Vainilla, con trocitos de banano, fresas frescas, salsa de uva y crema chantilly.", "precio": "$22.900"},
+      {"id": "filosofia-acaramelada", "nombre": "Filosofía Acaramelada", "descripcion": "Donde el helado de Vainilla en crocante de macadamias y almendras, las tajadas de banano y la salsa de caramelo, se unen para darle sentido y sabor a la vida.", "precio": "$11.900", "alergenos": ["CONTIENE NUECES / MANÍ"]},
+      {"id": "merengue-glaze", "nombre": "Merengue Glazé", "descripcion": "Merengue y helado de Vainilla, juegan con la salsa de chocolate caliente, nueces y crema chantilly para proporcionar solo placer.", "precio": "$16.500", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "copa-melocoton", "nombre": "Copa Melocotón", "descripcion": "Helado de Vainilla y Yogurt de Maracuyá con melocotones tajados, coulis de maracuyá, crema chantilly y crujiente galleta de encaje.", "precio": "$15.600"}
+    ]
+  },
+  {
+    "seccion": "COPAS Y COPAS",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "banana-royal", "nombre": "Banana Royal", "descripcion": "Alucinante mezcla de helado de Vainilla y Chocolate con tajadas de fresa, banano, salsa de chocolate caliente, crujiente galleta de encaje y crema chantilly.", "precio": "$14.900"},
+      {"id": "suprema", "nombre": "Suprema", "descripcion": "Helado de Vainilla y tajaditas de banano entre crema chantilly, bañadas con salsa de chocolate y arequipe, mini cono de galleta y nueces.", "precio": "$15.800", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "dama-blanca", "nombre": "Dama Blanca", "descripcion": "Helado de Vainilla y Chocolate acompañado con salsa de chocolate, nueces y crema chantilly.", "precio": "$11.900", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "alaska", "nombre": "Alaska", "descripcion": "Profiterol con salsa inglesa, helado de Vainilla y Mora, con salsa de uva y crema chantilly.", "precio": "$15.900"},
+      {"id": "brownie", "nombre": "Brownie", "descripcion": "Helado de Vainilla mezclado con trozos de brownie, salsa de caramelo y chocolate.", "precio": "$12.900"},
+      {"id": "dulce-encanto", "nombre": "Dulce Encanto", "descripcion": "Bizcochuelo bañado en salsa inglesa y arequipe, con helado Cocado, tartufino de chocolate y crujiente galleta de encaje.", "precio": "$15.800", "alergenos": ["CONTIENE NUECES"]}
+    ]
+  },
+  {
+    "seccion": "HELADOS DE TEMPORADA",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "nota": "Sabores que vuelven para hacerte sonreír. Disponibles únicamente en tamaño de 470 ml.",
+    "items": [
+      {"id": "dulce-de-leche-470ml", "nombre": "Dulce de Leche 470ml", "descripcion": "Helado de Dulce de Leche argentino con stracciatella.", "precio": "$39.000"},
+      {"id": "maracuya-stracciatella-470ml", "nombre": "Maracuyá Stracciatella 470ml", "descripcion": "Nuestro helado Pasión Tropical. Helado de Maracuyá en agua con trozos de chocolate oscuro y vetas de maracuyá.", "precio": "$28.500"},
+      {"id": "yogurt-de-guayaba-470ml", "nombre": "Yogurt de Guayaba 470ml", "descripcion": "Helado de Yogurt con vetas de guayaba.", "precio": "$22.000"},
+      {"id": "vainilla-chocoalmond-470ml", "nombre": "Vainilla Chocoalmond 470ml", "descripcion": "Helado de Vainilla con almendras tostadas y fudge de chocolate.", "precio": "$24.000", "alergenos": ["CONTIENE NUECES"]},
+      {"id": "lulada-470ml", "nombre": "Lulada 470ml", "descripcion": "Helado de Lulo en agua.", "precio": "$20.500"},
+      {"id": "yogurt-griego-con-amarenas", "nombre": "Yogurt Griego con Amarenas", "descripcion": "Helado de Yogurt Griego con cerezas amarenas italianas.", "precio": "$26.000"}
+    ]
+  },
+  {
+    "seccion": "INFANTILES",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "helado-piggy", "nombre": "Helado Piggy", "descripcion": "Con helado de Chicle.", "precio": "$9.800"},
+      {"id": "samy", "nombre": "Samy", "descripcion": "Pingüino con helado de Vainilla.", "precio": "$9.800"}
+    ]
+  },
+  {
+    "seccion": "SABORES DE HELADO",
+    "pagina": 7,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [],
+    "opciones": [
+      {
+        "grupo": "Sabores de helado",
+        "valores": [
+          "Almendra (CONTIENE NUECES)", "Arequipe", "Avellana (CONTIENE NUECES)", "Brownie",
+          "Cheesecake de Limón", "Chicle", "Choco Rochelle (CONTIENE NUECES / MANÍ)", "Chocolate",
+          "Chocolate sin Azúcar añadido", "Cocado", "Coffee Toffee (CONTIENE NUECES)",
+          "Crocante (CONTIENE NUECES)", "Dulce Tumaco", "Fresa", "Fresa sin Azúcar añadido",
+          "Galleta", "Limón (VEGANO)", "Maracuyá (VEGANO)", "Mora (VEGANO)",
+          "Pistacho (CONTIENE NUECES)", "Ron con Pasas", "Vainilla", "Vainilla sin Azúcar añadido",
+          "Old Style", "Yogurt de Curuba Light", "Yogurt de Frutos del Bosque", "Yogurt de Maracuyá"
+        ]
+      },
+      {
+        "grupo": "Helados Veganos (*Leche vegetal)",
+        "valores": ["Cacao Nibs Crunch (CONTIENE NUECES)", "Limonada de Coco (VEGANO)"]
+      }
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — VINAGRETAS",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "nota": "Presentación de 250 ml.",
+    "items": [
+      {"id": "vinagreta-balsamico", "nombre": "Vinagreta Balsámico", "descripcion": "Perfecta mezcla de vinagre balsámico, aceite de oliva y miel.", "precio": "$23.300", "dieta": ["VEGETARIANO"]},
+      {"id": "vinagreta-oriental", "nombre": "Vinagreta Oriental", "descripcion": "Mezcla de vinagres, mostaza y un toque agridulce.", "precio": "$23.300", "dieta": ["VEGETARIANO"]},
+      {"id": "vinagreta-mostaza", "nombre": "Vinagreta Mostaza", "descripcion": "Vinagreta donde la mostaza es protagonista. ¡Úsala para acompañar lo que más te guste!", "precio": "$23.300", "dieta": ["VEGETARIANO"]}
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — SOPAS",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "covarachia", "nombre": "Covarachía", "precio": "$14.900", "precios": {"500ml": "$14.900", "1lt": "$20.500"}, "dieta": ["VEGETARIANO", "VEGANO"], "notas": ["LIGERAMENTE PICANTE"]},
+      {"id": "cebolla", "nombre": "Cebolla", "precio": "$16.200", "precios": {"500ml": "$16.200", "1lt": "$25.000"}},
+      {"id": "espinaca", "nombre": "Espinaca", "precio": "$14.900", "precios": {"500ml": "$14.900", "1lt": "$20.500"}, "dieta": ["VEGETARIANO"]},
+      {"id": "lentejas", "nombre": "Lentejas", "precio": "$19.300", "precios": {"500ml": "$19.300", "1lt": "$32.800"}, "dieta": ["VEGETARIANO", "VEGANO"]},
+      {"id": "vida-en-verdes", "nombre": "Vida en Verdes", "precio": "$18.000", "precios": {"500ml": "$18.000", "1lt": "$30.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "soy-otono", "nombre": "Soy Otoño", "precio": "$15.900", "precios": {"500ml": "$15.900", "1lt": "$26.200"}, "dieta": ["VEGANO"]}
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — SALSAS",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "hogao", "nombre": "Hogao", "precio": "$10.900", "precios": {"250ml": "$10.900", "500ml": "$16.900"}, "dieta": ["VEGANO"]},
+      {"id": "pesto", "nombre": "Pesto", "precio": "$24.000", "precios": {"250ml": "$24.000"}, "dieta": ["VEGETARIANO"], "alergenos": ["CONTIENE NUECES / MANÍ"]},
+      {"id": "curry", "nombre": "Curry", "precio": "$24.900", "precios": {"500ml": "$24.900", "1lt": "$40.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "napolitana", "nombre": "Napolitana", "precio": "$17.900", "precios": {"500ml": "$17.900", "1lt": "$30.000"}, "dieta": ["VEGETARIANO", "VEGANO"]},
+      {"id": "salsa-de-la-casa", "nombre": "Salsa de la Casa", "precio": "$30.800", "precios": {"500ml": "$30.800", "1lt": "$48.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "salsa-champinones", "nombre": "Salsa Champiñones", "precio": "$25.000", "precios": {"500ml": "$25.000", "1lt": "$40.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "mexicana", "nombre": "Mexicana", "precio": "$17.900", "precios": {"500ml": "$17.900", "1lt": "$30.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "parmesana", "nombre": "Parmesana", "precio": "$30.800", "precios": {"500ml": "$30.800", "1lt": "$52.500"}, "dieta": ["VEGETARIANO"]}
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — SALSAS CON PROTEÍNA",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "stroganoff", "nombre": "Stroganoff", "precio": "$49.900", "precios": {"500ml": "$49.900"}},
+      {"id": "lomito-pimienta", "nombre": "Lomito Pimienta", "precio": "$56.000", "precios": {"500ml": "$56.000"}},
+      {"id": "pollo", "nombre": "Pollo", "precio": "$38.500", "precios": {"500ml": "$38.500"}},
+      {"id": "pollo-thai", "nombre": "Pollo Thai", "precio": "$38.900", "precios": {"500ml": "$38.900"}},
+      {"id": "cochinita-pibil", "nombre": "Cochinita Pibil", "precio": "$37.900", "precios": {"500ml": "$37.900"}},
+      {"id": "carne-desmechada", "nombre": "Carne Desmechada", "precio": "$40.000", "precios": {"500ml": "$40.000"}},
+      {"id": "bolonesa", "nombre": "Boloñesa", "precio": "$25.700", "precios": {"500ml": "$25.700", "1lt": "$40.000"}}
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — SABORES DULCES",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "items": [
+      {"id": "arequipe", "nombre": "Arequipe", "precio": "$11.800", "precios": {"250ml": "$11.800", "500ml": "$20.000"}, "dieta": ["VEGETARIANO"]},
+      {"id": "salsa-frutos-del-bosque", "nombre": "Salsa Frutos del Bosque", "precio": "$15.800", "precios": {"250ml": "$15.800", "500ml": "$24.700"}, "dieta": ["VEGETARIANO", "VEGANO"]},
+      {"id": "coulis-de-maracuya", "nombre": "Coulis de Maracuyá", "precio": "$18.000", "precios": {"250ml": "$18.000", "500ml": "$24.000"}, "dieta": ["VEGETARIANO", "VEGANO"]},
+      {"id": "jalea-de-guayaba", "nombre": "Jalea de Guayaba", "precio": "$15.900", "precios": {"250ml": "$15.900", "500ml": "$25.900"}, "dieta": ["VEGETARIANO", "VEGANO"]}
+    ]
+  },
+  {
+    "seccion": "CREPES EN CASA — MASAS",
+    "pagina": 8,
+    "origen": "transcripcion visual (pagina sin capa de texto)",
+    "nota": "¡Disfruta nuestra masas listas para preparar pancakes o waffles en casa! Presentación de 500 ml.",
+    "items": [
+      {"id": "masa-waffle", "nombre": "Masa Waffle", "precio": "$13.400", "dieta": ["VEGETARIANO"]},
+      {"id": "masa-de-yuca", "nombre": "Masa de Yuca", "precio": "$26.800", "dieta": ["VEGETARIANO"]},
+      {"id": "masa-de-choclo", "nombre": "Masa de Choclo", "precio": "$24.800", "dieta": ["VEGETARIANO"]}
+    ]
+  }
+]
