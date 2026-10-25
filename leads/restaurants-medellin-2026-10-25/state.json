@@ -1,0 +1,55 @@
+{
+ "round": 1,
+ "seen_keys": [
+  "medellinguru.com",
+  "restaurante el p ndulo pizzas y asados",
+  "la profetisa restaurante",
+  "el gordo y el flaco comidas r pidas la 70",
+  "pacho parrilla alpes",
+  "super corrientazo",
+  "acpm corrientazo",
+  "tierra querida hamburguesas",
+  "paneepomodoro.com.co",
+  "marmonpizza.com",
+  "pizzashopmed.com",
+  "lossuperpuesudos.com",
+  "homeburgers.com",
+  "pigasus.com.co",
+  "losquesudospyh.com",
+  "medell n burger",
+  "sanchopaisa.com",
+  "hatoviejo.com",
+  "lataqueriacocinamexicana.com"
+ ],
+ "confirmed": [],
+ "rejected": [
+  "Tierra Querida (hamburguesas)",
+  "Pane e Pomodoro",
+  "MarMon Pizza",
+  "Pizza Shop Medellín",
+  "Los Super Puesudos",
+  "Home Burgers",
+  "Pigasus",
+  "Los Quesudos",
+  "Medellín Burger Company",
+  "Sancho Paisa",
+  "Hatoviejo",
+  "La Taquería"
+ ],
+ "unverified_candidates": [
+  "Órale! (comida mexicana)",
+  "Restaurante El Péndulo (pizzas y asados)",
+  "La Profetisa Restaurante",
+  "El Gordo y El Flaco (comidas rápidas, La 70)",
+  "Pacho Parrilla Alpes",
+  "Super Corrientazo",
+  "Acpm Corrientazo"
+ ],
+ "blocked_hosts": [
+  "instagram.com",
+  "facebook.com",
+  "rappi.com.co",
+  "bacanika.com",
+  "sanpetersuites.com"
+ ]
+}
