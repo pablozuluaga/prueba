@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Misión Navidad 2026 · Reel</title>
+<style>
+@font-face{font-family:"Great Vibes";src:url(node_modules/@fontsource/great-vibes/files/great-vibes-latin-400-normal.woff2)}
+@font-face{font-family:"Playfair";font-style:italic;font-weight:500;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-500-italic.woff2)}
+@font-face{font-family:"Playfair";font-style:italic;font-weight:700;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-italic.woff2)}
+@font-face{font-family:"Playfair";font-style:normal;font-weight:700;src:url(node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2)}
+@font-face{font-family:"Mont";font-weight:500;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-500-normal.woff2)}
+@font-face{font-family:"Mont";font-weight:600;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:"Mont";font-weight:700;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-700-normal.woff2)}
+@font-face{font-family:"Mont";font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:"Mont";font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+
+:root{
+  --magenta:#E5007D; --magenta-deep:#8E0052; --magenta-ink:#5A0035;
+  --celeste:#8FD6F5; --celeste-soft:#D4F1FD; --white:#FFFFFF;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--magenta-deep)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"Mont",sans-serif;color:#fff}
+.scene{position:absolute;inset:0;opacity:0;overflow:hidden}
+.abs{position:absolute}
+.center-x{left:0;right:0;text-align:center}
+
+/* fondos de marca */
+.brand-bg{position:absolute;inset:0;
+  background:
+    radial-gradient(900px 700px at 80% 12%, rgba(143,214,245,.55), transparent 60%),
+    radial-gradient(800px 800px at 10% 90%, rgba(143,214,245,.35), transparent 60%),
+    radial-gradient(1200px 1400px at 50% 45%, #F21C8E 0%, var(--magenta) 35%, var(--magenta-deep) 100%);}
+.blur-bg{position:absolute;inset:-40px;background-size:cover;background-position:center}
+.tint{position:absolute;inset:0;background:linear-gradient(180deg, rgba(142,0,82,.55) 0%, rgba(229,0,125,.35) 45%, rgba(90,0,53,.82) 100%)}
+.tint-blue{position:absolute;inset:0;background:radial-gradient(700px 600px at 85% 15%, rgba(143,214,245,.45), transparent 70%)}
+
+/* tarjetas tipo polaroid (blanco de marca) */
+.card{position:absolute;background:#fff;padding:18px 18px 18px;border-radius:10px;
+  box-shadow:0 30px 70px rgba(60,0,35,.55), 0 6px 18px rgba(0,0,0,.25)}
+.card .ph{width:100%;height:100%;overflow:hidden;border-radius:4px;position:relative}
+.card .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform-origin:50% 50%}
+
+/* tipografía */
+.script{font-family:"Great Vibes",cursive;font-weight:400;line-height:1}
+.serif-i{font-family:"Playfair",serif;font-style:italic;font-weight:500}
+.kicker{font-weight:700;letter-spacing:.38em;text-transform:uppercase}
+.heavy{font-weight:900;text-transform:uppercase;letter-spacing:.02em}
+.w{display:inline-block;will-change:transform,opacity}
+.shadow{text-shadow:0 4px 24px rgba(70,0,40,.55)}
+
+.pill{display:inline-flex;align-items:center;gap:18px;background:#fff;color:var(--magenta);
+  border-radius:999px;padding:22px 44px;font-weight:800;font-size:44px;letter-spacing:.01em;
+  box-shadow:0 14px 40px rgba(60,0,35,.35)}
+.pill.blue{background:var(--celeste);color:var(--magenta-ink)}
+
+/* swipe de marca */
+#swipe{position:absolute;inset:0;pointer-events:none}
+#swipe div{position:absolute;top:-300px;height:2520px;width:900px;transform-origin:center}
+#fx{position:absolute;inset:0}
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- ESCENA 1 · INTRO -->
+  <div class="scene" id="s1">
+    <div class="brand-bg"></div>
+    <svg id="ornaments" class="abs" style="left:0;top:0" width="1080" height="560"></svg>
+    <svg id="bigstar" class="abs" style="left:465px;top:420px" width="150" height="150" viewBox="-50 -50 100 100">
+      <defs><radialGradient id="glow"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+      <circle r="50" fill="url(#glow)"/>
+      <path d="M0,-40 L9,-9 L40,0 L9,9 L0,40 L-9,9 L-40,0 L-9,-9Z" fill="#fff"/>
+    </svg>
+    <div class="abs center-x kicker" id="s1-k" style="top:590px;font-size:34px;color:var(--celeste-soft)">Fundación Creo</div>
+    <div class="abs center-x script shadow" id="s1-mision" style="top:690px;font-size:210px">Misión</div>
+    <div class="abs center-x heavy shadow" id="s1-navidad" style="top:905px;font-size:178px;letter-spacing:.04em">Navidad</div>
+    <div class="abs center-x" id="s1-year" style="top:1090px;font-size:120px;font-weight:900;letter-spacing:.32em;color:transparent;-webkit-text-stroke:4px var(--celeste);padding-left:.32em">2026</div>
+    <div class="abs center-x" id="s1-pill" style="top:1300px">
+      <span class="pill">
+        <svg width="52" height="52" viewBox="0 0 48 48"><rect x="6" y="20" width="36" height="24" rx="3" fill="#E5007D"/><rect x="3" y="13" width="42" height="10" rx="3" fill="#8FD6F5"/><rect x="21" y="13" width="6" height="31" fill="#fff"/><path d="M24 13c-4-9-14-9-12-2 1 3 7 3 12 2zm0 0c4-9 14-9 12-2-1 3-7 3-12 2z" fill="none" stroke="#E5007D" stroke-width="3"/></svg>
+        Recogemos donaciones
+      </span>
+    </div>
+  </div>
+
+  <!-- ESCENA 2 · NIÑOS (full bleed) -->
+  <div class="scene" id="s2">
+    <img id="s2-img" src="fotos/ninos-altar.jpg" class="abs" style="left:0;top:0;width:1080px;height:1920px;object-fit:cover;transform-origin:50% 40%">
+    <div class="abs" style="inset:0;background:linear-gradient(180deg, rgba(142,0,82,.0) 40%, rgba(142,0,82,.55) 62%, rgba(90,0,53,.92) 100%)"></div>
+    <div class="abs center-x script shadow" id="s2-a" style="top:1150px;font-size:170px">La Navidad</div>
+    <div class="abs center-x serif-i shadow" id="s2-b" style="top:1345px;font-size:86px">es <span style="color:var(--celeste)">compartir</span></div>
+  </div>
+
+  <!-- ESCENA 3 · PROCESIÓN -->
+  <div class="scene" id="s3">
+    <div class="blur-bg" style="background-image:url(fotos/blur/procesion-sacerdote.jpg)"></div><div class="tint"></div><div class="tint-blue"></div>
+    <div class="card" id="s3-card" style="left:60px;top:520px;width:960px;height:675px"><div class="ph"><img src="fotos/procesion-sacerdote.jpg"></div></div>
+    <div class="abs center-x serif-i shadow" id="s3-a" style="top:1265px;font-size:82px">es llevar esperanza</div>
+    <div class="abs center-x heavy shadow" id="s3-b" style="top:1385px;font-size:50px;color:var(--celeste);letter-spacing:.08em">donde más se necesita</div>
+  </div>
+
+  <!-- ESCENA 4 · BANDA -->
+  <div class="scene" id="s4">
+    <div class="blur-bg" style="background-image:url(fotos/blur/banda-musica.jpg)"></div><div class="tint"></div><div class="tint-blue"></div>
+    <div class="card" id="s4-card" style="left:60px;top:520px;width:960px;height:675px"><div class="ph"><img src="fotos/banda-musica.jpg" style="object-position:50% 60%"></div></div>
+    <div class="abs center-x serif-i shadow" id="s4-a" style="top:1265px;font-size:82px">es ser herramientas</div>
+    <div class="abs center-x heavy shadow" id="s4-b" style="top:1380px;font-size:96px;color:#fff;letter-spacing:.06em">de <span style="color:var(--celeste)">alegría</span></div>
+  </div>
+
+  <!-- ESCENA 5 · COLLAGE COMUNIDAD -->
+  <div class="scene" id="s5">
+    <div class="blur-bg" style="background-image:url(fotos/blur/misa-hermanas.jpg)"></div><div class="tint"></div><div class="tint-blue"></div>
+    <div class="card" id="s5-c1" style="left:90px;top:250px;width:840px;height:596px"><div class="ph"><img src="fotos/misa-hermanas.jpg"></div></div>
+    <div class="card" id="s5-c2" style="left:170px;top:765px;width:840px;height:508px"><div class="ph"><img src="fotos/altar-velas.jpg"></div></div>
+    <div class="abs center-x serif-i shadow" id="s5-a" style="top:1305px;font-size:78px">para los niños y familias</div>
+    <div class="abs center-x heavy shadow" id="s5-b" style="top:1410px;font-size:92px;letter-spacing:.06em">del <span style="color:var(--celeste)">Chocó</span></div>
+  </div>
+
+  <!-- ESCENA 6 · COLOMBIA ABRAZA AL CHOCÓ -->
+  <div class="scene" id="s6">
+    <div class="blur-bg" style="background-image:url(fotos/blur/procesion-pancartas.jpg)"></div><div class="tint"></div><div class="tint-blue"></div>
+    <div class="card" id="s6-card" style="left:60px;top:440px;width:960px;height:675px"><div class="ph"><img id="s6-img" src="fotos/procesion-pancartas.jpg"></div></div>
+    <div class="abs center-x script shadow" id="s6-a" style="top:1180px;font-size:150px">Juntos,</div>
+    <div class="abs center-x heavy shadow" id="s6-b" style="top:1360px;font-size:62px;letter-spacing:.06em">abracemos al <span style="color:var(--celeste)">Chocó</span></div>
+  </div>
+
+  <!-- ESCENA 7 · UBICACIÓN -->
+  <div class="scene" id="s7">
+    <div class="blur-bg" style="background-image:url(fotos/blur/parroquia-fachada.jpg)"></div><div class="tint"></div><div class="tint-blue"></div>
+    <div class="abs center-x kicker" id="s7-k" style="top:240px;font-size:30px;color:var(--celeste-soft)">Hacia aquí va tu ayuda</div>
+    <div class="card" id="s7-card" style="left:90px;top:305px;width:900px;height:688px"><div class="ph"><img id="s7-img" src="fotos/parroquia-fachada.jpg"></div></div>
+    <svg id="s7-pin" class="abs" style="left:490px;top:1020px" width="100" height="124" viewBox="0 0 100 124">
+      <path d="M50 4C25 4 6 23 6 47c0 32 44 73 44 73s44-41 44-73C94 23 75 4 50 4z" fill="#fff"/>
+      <circle cx="50" cy="46" r="17" fill="#E5007D"/>
+    </svg>
+    <div class="abs center-x kicker" id="s7-a" style="top:1162px;font-size:30px;color:var(--celeste)">Parroquia</div>
+    <div class="abs center-x shadow" id="s7-b" style="top:1207px;font-family:Playfair;font-weight:700;font-size:66px;line-height:1.12">Nuestra Señora<br>de la Pobreza</div>
+    <div class="abs center-x" id="s7-c" style="top:1385px;font-size:38px;font-weight:600;line-height:1.35">Corregimiento de Pie de Pepé<br><span style="color:var(--celeste-soft);font-weight:500">Medio Baudó, Chocó</span></div>
+  </div>
+
+  <!-- ESCENA 8 · CÓMO DONAR -->
+  <div class="scene" id="s8">
+    <div class="brand-bg"></div>
+    <div class="abs center-x kicker" id="s8-k" style="top:255px;font-size:30px;color:var(--celeste-soft)">Misión Navidad 2026</div>
+    <div class="abs center-x script shadow" id="s8-h" style="top:300px;font-size:150px">¿Cómo ayudar?</div>
+    <div class="abs" id="s8-card" style="left:80px;top:480px;width:920px;height:860px;background:#fff;border-radius:44px;box-shadow:0 40px 90px rgba(60,0,35,.5);color:var(--magenta-ink);text-align:center;overflow:hidden">
+      <div class="abs" style="left:0;right:0;top:0;height:14px;background:linear-gradient(90deg,var(--magenta),var(--celeste))"></div>
+      <div class="abs center-x" id="s8-1" style="top:62px;font-size:40px;font-weight:600;line-height:1.3">Recibimos donaciones<br><b style="font-weight:800;color:var(--magenta)">en especie y en dinero</b></div>
+      <div class="abs" id="s8-div1" style="left:120px;right:120px;top:205px;height:3px;background:#F3D1E4;border-radius:2px"></div>
+      <div class="abs center-x kicker" id="s8-2" style="top:250px;font-size:28px;color:var(--magenta);letter-spacing:.24em">Bancolombia</div>
+      <div class="abs center-x" id="s8-3" style="top:295px;font-size:34px;font-weight:600">Cuenta de ahorros</div>
+      <div class="abs center-x" id="s8-4" style="top:350px;font-size:94px;font-weight:900;letter-spacing:.03em;color:var(--magenta-ink)">20205780033</div>
+      <div class="abs center-x" id="s8-5" style="top:478px">
+        <span style="display:inline-block;background:var(--celeste-soft);border-radius:18px;padding:14px 34px;font-size:40px;font-weight:700">NIT <span style="font-weight:900">830.133.398</span></span>
+      </div>
+      <div class="abs" id="s8-div2" style="left:120px;right:120px;top:600px;height:3px;background:#F3D1E4;border-radius:2px"></div>
+      <div class="abs center-x" id="s8-6" style="top:640px;font-size:34px;font-weight:600">Puedes donar hasta el</div>
+      <div class="abs center-x" id="s8-7" style="top:700px">
+        <span class="pill" style="background:var(--magenta);color:#fff;font-size:54px;padding:22px 52px">14 de diciembre</span>
+      </div>
+    </div>
+    <div class="abs center-x serif-i shadow" id="s8-cta" style="top:1375px;font-size:60px">Sé parte de la <span style="color:var(--celeste)">alegría</span> ✦</div>
+    <div class="abs center-x kicker" id="s8-sign" style="top:1465px;font-size:28px;color:var(--celeste-soft)">Fundación Creo</div>
+  </div>
+
+  <canvas id="fx" width="1080" height="1920"></canvas>
+  <div id="swipe"><div id="sw1"></div><div id="sw2"></div><div id="sw3"></div></div>
+</div>
+
+<script>
+// ---------- utilidades ----------
+const $ = id => document.getElementById(id);
+const clamp = (x,a=0,b=1) => Math.max(a, Math.min(b, x));
+const prog = (t,a,b) => clamp((t-a)/(b-a));
+const eOut = p => 1 - Math.pow(1-p, 3);
+const eInOut = p => p<.5 ? 4*p*p*p : 1 - Math.pow(-2*p+2,3)/2;
+const eBack = p => { const c1=1.70158, c3=c1+1; return 1 + c3*Math.pow(p-1,3) + c1*Math.pow(p-1,2); };
+const lerp = (a,b,p) => a + (b-a)*p;
+
+// partir textos en palabras para animarlas de a una
+function splitWords(el){
+  const walk = node => {
+    [...node.childNodes].forEach(n => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(tok => {
+          if (!tok) return;
+          if (/^\s+$/.test(tok)) frag.appendChild(document.createTextNode(tok));
+          else { const s = document.createElement('span'); s.className='w'; s.textContent = tok; frag.appendChild(s); }
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1 && n.tagName !== 'BR' && !n.classList.contains('pill')) walk(n);
+    });
+  };
+  walk(el);
+}
+
+// entrada palabra por palabra (sube, se desenfoca a nítido) y salida suave
+function words(id, t, tin, tout, o={}){
+  const el = $(id); const ws = el.querySelectorAll('.w');
+  const stag = o.stagger ?? .07, dur = o.dur ?? .55, dy = o.dy ?? 60;
+  const q = tout==null ? 0 : eInOut(prog(t, tout, tout+.35));
+  ws.forEach((w,i) => {
+    const p = prog(t, tin + i*stag, tin + i*stag + dur);
+    const pe = o.back ? eBack(p) : eOut(p);
+    w.style.opacity = (eOut(p) * (1-q)).toFixed(3);
+    w.style.transform = `translateY(${(1-pe)*dy - q*30}px) scale(${lerp(o.s0??1,1,pe)})`;
+    w.style.filter = p<1 ? `blur(${(1-eOut(p))*10}px)` : 'none';
+  });
+}
+// entrada de un bloque completo
+function block(id, t, tin, tout, o={}){
+  const el = $(id); const dur = o.dur ?? .6;
+  const p = prog(t, tin, tin+dur), pe = o.back ? eBack(p) : eOut(p);
+  const q = tout==null ? 0 : eInOut(prog(t, tout, tout+.35));
+  el.style.opacity = (eOut(p)*(1-q)).toFixed(3);
+  const dy = o.dy ?? 50, s0 = o.s0 ?? 1;
+  el.style.transform = `translateY(${(1-pe)*dy}px) scale(${lerp(s0,1,pe)})` + (o.extra||'');
+  el.style.filter = (o.blur && p<1) ? `blur(${(1-eOut(p))*12}px)` : 'none';
+}
+// tarjeta-foto: entra girando y queda "respirando"
+function card(id, t, tin, rot, o={}){
+  const el = $(id); const p = prog(t, tin, tin + (o.dur ?? .8));
+  const pe = eBack(p);
+  const fromX = o.fromX ?? 0, fromY = o.fromY ?? 160;
+  const breathe = Math.sin((t - tin) * 1.6) * .6;
+  el.style.opacity = eOut(prog(t, tin, tin+.3));
+  el.style.transform = `translate(${(1-pe)*fromX}px, ${(1-pe)*fromY}px) rotate(${lerp(rot + (o.rot0 ?? 8), rot, pe) + breathe}deg) scale(${lerp(.85,1,pe)})`;
+  const img = el.querySelector('img');
+  if (img && !o.noKB) img.style.transform = `scale(${1.04 + (t-tin)*.035})`;
+}
+function sceneAlpha(id, t, a, b, fi=.35, fo=.35){
+  const el = $(id);
+  const inA  = fi > 0 ? prog(t, a - fi, a) : (t >= a ? 1 : 0);
+  const outA = fo > 0 ? 1 - prog(t, b, b + fo) : (t <= b ? 1 : 0);
+  const al = Math.min(inA, outA);
+  el.style.opacity = al.toFixed(3);
+  el.style.visibility = al > 0 ? 'visible' : 'hidden';
+  return al;
+}
+const blurBgKB = (sceneId, t, a) => { const bg = document.querySelector(`#${sceneId} .blur-bg`); if (bg) bg.style.transform = `scale(${1.05 + (t-a)*.02})`; };
+
+// ---------- adornos navideños colgantes ----------
+const orn = $('ornaments');
+const ornDefs = [
+  {x:120,len:210,r:46,c:'#fff'},{x:250,len:320,r:34,c:'#8FD6F5'},{x:390,len:160,r:28,c:'#fff'},
+  {x:700,len:150,r:30,c:'#8FD6F5'},{x:830,len:300,r:44,c:'#fff'},{x:960,len:200,r:32,c:'#8FD6F5'}
+];
+orn.innerHTML = ornDefs.map((d,i)=>`
+  <g id="orn${i}" transform="translate(${d.x},0)">
+    <line x1="0" y1="0" x2="0" y2="${d.len}" stroke="rgba(255,255,255,.75)" stroke-width="3"/>
+    <rect x="-9" y="${d.len-4}" width="18" height="14" rx="3" fill="#F7D774"/>
+    <circle cx="0" cy="${d.len+d.r+6}" r="${d.r}" fill="${d.c}"/>
+    <ellipse cx="${-d.r*.35}" cy="${d.len+d.r*.6+6}" rx="${d.r*.22}" ry="${d.r*.32}" fill="rgba(255,255,255,.7)" transform="rotate(-25 ${-d.r*.35} ${d.len+d.r*.6+6})"/>
+    <path d="M${-d.r} ${d.len+d.r+6} Q0 ${d.len+d.r+22} ${d.r} ${d.len+d.r+6}" stroke="${d.c==='#fff'?'#E5007D':'#fff'}" stroke-width="5" fill="none" opacity=".85"/>
+  </g>`).join('');
+
+// ---------- nieve y destellos (deterministas por fotograma) ----------
+let seed = 7; const rnd = () => (seed = (seed*16807) % 2147483647) / 2147483647;
+const flakes = Array.from({length:150}, () => ({x:rnd()*1080, y:rnd()*1920, r:1.5+rnd()*5.5, v:40+rnd()*110, a:.35+rnd()*.6, ph:rnd()*6.28, sw:10+rnd()*30, blue:rnd()<.25}));
+const sparks = Array.from({length:26}, () => ({x:rnd()*1080, y:rnd()*1920, s:8+rnd()*18, ph:rnd()*6.28, sp:1.5+rnd()*2.5}));
+const ctx = $('fx').getContext('2d');
+function drawFX(t, density){
+  ctx.clearRect(0,0,1080,1920);
+  flakes.forEach((f,i) => {
+    if (i/flakes.length > density) return;
+    const y = (f.y + t*f.v) % 1960 - 20;
+    const x = f.x + Math.sin(t*1.2 + f.ph)*f.sw;
+    ctx.beginPath(); ctx.arc(x, y, f.r, 0, 6.283);
+    ctx.fillStyle = f.blue ? `rgba(212,241,253,${f.a})` : `rgba(255,255,255,${f.a})`;
+    ctx.shadowColor = 'rgba(255,255,255,.8)'; ctx.shadowBlur = f.r*2; ctx.fill();
+  });
+  ctx.shadowBlur = 0;
+  sparks.forEach(s => {
+    const a = Math.max(0, Math.sin(t*s.sp + s.ph)); if (a < .05) return;
+    const k = s.s * (0.6 + a*.6);
+    ctx.save(); ctx.translate(s.x, s.y); ctx.globalAlpha = a*.9; ctx.fillStyle = '#fff';
+    ctx.beginPath(); ctx.moveTo(0,-k); ctx.lineTo(k*.18,-k*.18); ctx.lineTo(k,0); ctx.lineTo(k*.18,k*.18);
+    ctx.lineTo(0,k); ctx.lineTo(-k*.18,k*.18); ctx.lineTo(-k,0); ctx.lineTo(-k*.18,-k*.18); ctx.closePath(); ctx.fill();
+    ctx.restore();
+  });
+}
+
+// ---------- barrido de marca (magenta / celeste / blanco) ----------
+const sw = [$('sw1'), $('sw2'), $('sw3')];
+sw[0].style.background = '#E5007D'; sw[1].style.background = '#8FD6F5'; sw[2].style.background = '#fff';
+function swipe(t, at){
+  // cubre la pantalla justo en "at"
+  const d = .55;
+  const p = prog(t, at - d, at + d);
+  sw.forEach((el,i) => {
+    const pi = eInOut(clamp(p*1.25 - i*.1));
+    const x = lerp(-1900, 1900, pi);
+    el.style.transform = `translateX(${x}px) skewX(-14deg)`;
+    el.style.left = (i*0) + 'px';
+    el.style.width = (1500 - i*260) + 'px';
+    el.style.display = (p > 0 && p < 1) ? 'block' : 'none';
+  });
+}
+
+// ---------- línea de tiempo ----------
+const T = { s1:[0,3.6], s2:[3.6,6.6], s3:[6.6,9.4], s4:[9.4,12.2], s5:[12.2,15.2], s6:[15.2,17.9], s7:[17.9,21.2], s8:[21.2,28.0] };
+const DURATION = 28.0;
+
+['s2-a','s2-b','s3-a','s3-b','s4-a','s4-b','s5-a','s5-b','s6-b','s7-b','s7-c','s8-cta','s1-navidad'].forEach(id => splitWords($(id)));
+
+window.setTime = function(t){
+  // 1 · intro
+  if (sceneAlpha('s1', t, 0, T.s1[1], 0, .05)) {
+    ornDefs.forEach((d,i) => {
+      const drop = eBack(prog(t, .05 + i*.08, .85 + i*.08));
+      const sway = Math.sin(t*1.8 + i)*4*(1 - prog(t,0,0) );
+      $('orn'+i).setAttribute('transform', `translate(${d.x},${lerp(-d.len-120,0,drop)}) rotate(${sway})`);
+    });
+    const sp = eBack(prog(t,.15,.9));
+    $('bigstar').style.transform = `scale(${sp}) rotate(${t*30}deg)`;
+    $('bigstar').style.opacity = clamp(sp);
+    block('s1-k', t, .25, null, {dy:30});
+    block('s1-mision', t, .4, null, {dy:80, s0:.8, blur:true});
+    words('s1-navidad', t, .75, null, {dy:120, back:true, s0:.6});
+    block('s1-year', t, 1.15, null, {dy:40, blur:true});
+    block('s1-pill', t, 1.55, null, {dy:60, s0:.7, back:true});
+    const pulse = 1 + Math.max(0, Math.sin((t-2.2)*5))*.035*prog(t,2.2,2.3);
+    $('s1-pill').style.transform += ` scale(${pulse})`;
+  }
+  // 2 · niños
+  if (sceneAlpha('s2', t, T.s2[0], T.s2[1], 0, .4)) {
+    $('s2-img').style.transform = `scale(${1.04 + (t-T.s2[0])*.04}) translateY(${-(t-T.s2[0])*8}px)`;
+    block('s2-a', t, T.s2[0]+.35, null, {dy:60, blur:true});
+    words('s2-b', t, T.s2[0]+.85, null, {back:true});
+  }
+  // 3 · procesión
+  if (sceneAlpha('s3', t, T.s3[0], T.s3[1], .4, .4)) {
+    blurBgKB('s3', t, T.s3[0]);
+    card('s3-card', t, T.s3[0]-.15, -2.2, {fromX:-500, fromY:120, rot0:-10});
+    words('s3-a', t, T.s3[0]+.3, null);
+    words('s3-b', t, T.s3[0]+.75, null, {stagger:.06});
+  }
+  // 4 · banda
+  if (sceneAlpha('s4', t, T.s4[0], T.s4[1], .4, .4)) {
+    blurBgKB('s4', t, T.s4[0]);
+    card('s4-card', t, T.s4[0]-.15, 2, {fromX:500, fromY:120, rot0:10});
+    words('s4-a', t, T.s4[0]+.3, null);
+    words('s4-b', t, T.s4[0]+.8, null, {back:true, s0:.6, dy:80});
+  }
+  // 5 · collage
+  if (sceneAlpha('s5', t, T.s5[0], T.s5[1], .4, .4)) {
+    blurBgKB('s5', t, T.s5[0]);
+    card('s5-c1', t, T.s5[0]-.15, -3, {fromX:-400, fromY:-200, rot0:-12});
+    card('s5-c2', t, T.s5[0]+.25, 3.5, {fromX:400, fromY:300, rot0:12});
+    words('s5-a', t, T.s5[0]+.65, null, {stagger:.06});
+    words('s5-b', t, T.s5[0]+1.15, null, {back:true, s0:.6, dy:80});
+  }
+  // 6 · Colombia abraza al Chocó (zoom a la pancarta)
+  if (sceneAlpha('s6', t, T.s6[0], T.s6[1], .4, .1)) {
+    blurBgKB('s6', t, T.s6[0]);
+    card('s6-card', t, T.s6[0]-.15, -1.5, {fromY:260, rot0:-6, noKB:true});
+    const z = eInOut(prog(t, T.s6[0]+.6, T.s6[1]));
+    const img = $('s6-img');
+    img.style.transformOrigin = '64% 24%';
+    img.style.transform = `scale(${lerp(1.02, 2.05, z)})`;
+    block('s6-a', t, T.s6[0]+.4, null, {dy:60, blur:true});
+    words('s6-b', t, T.s6[0]+.9, null, {stagger:.08});
+  }
+  // 7 · ubicación
+  if (sceneAlpha('s7', t, T.s7[0], T.s7[1], 0, .1)) {
+    blurBgKB('s7', t, T.s7[0]);
+    block('s7-k', t, T.s7[0]+.2, null, {dy:30});
+    card('s7-card', t, T.s7[0]+.05, 0, {fromY:200, rot0:-6});
+    const pin = eBack(prog(t, T.s7[0]+.6, T.s7[0]+1.1));
+    const bob = Math.sin((t - T.s7[0])*4)*6*prog(t, T.s7[0]+1.1, T.s7[0]+1.3);
+    $('s7-pin').style.transform = `translateY(${(1-pin)*-140 + bob}px) scale(${clamp(pin*1.0,0,1.2)})`;
+    $('s7-pin').style.opacity = clamp(pin*3);
+    block('s7-a', t, T.s7[0]+.75, null, {dy:30});
+    words('s7-b', t, T.s7[0]+.9, null, {stagger:.07});
+    words('s7-c', t, T.s7[0]+1.4, null, {stagger:.05, dy:30});
+  }
+  // 8 · cómo donar (se queda en pantalla hasta el final)
+  if (sceneAlpha('s8', t, T.s8[0], DURATION+1, 0, 0)) {
+    const a = T.s8[0];
+    block('s8-k', t, a+.2, null, {dy:30});
+    block('s8-h', t, a+.3, null, {dy:60, blur:true, s0:.9});
+    block('s8-card', t, a+.45, null, {dy:220, s0:.9, back:true, dur:.8});
+    block('s8-1', t, a+.9, null, {dy:30});
+    block('s8-div1', t, a+1.1, null, {dy:0});
+    block('s8-2', t, a+1.25, null, {dy:30});
+    block('s8-3', t, a+1.35, null, {dy:30});
+    block('s8-4', t, a+1.5, null, {dy:40, s0:.85, back:true});
+    block('s8-5', t, a+1.9, null, {dy:30, back:true});
+    block('s8-div2', t, a+2.1, null, {dy:0});
+    block('s8-6', t, a+2.25, null, {dy:30});
+    block('s8-7', t, a+2.4, null, {dy:50, s0:.6, back:true});
+    const pp = t > a+3.2 ? 1 + Math.max(0, Math.sin((t-a-3.2)*3.2))*.04 : 1;
+    $('s8-7').style.transform += ` scale(${pp})`;
+    words('s8-cta', t, a+3.0, null, {stagger:.08});
+    block('s8-sign', t, a+3.6, null, {dy:20});
+  }
+  swipe(t, T.s2[0]);
+  swipe2(t);
+  drawFX(t, t < T.s1[1] || t > T.s8[0] ? 1 : .55);
+};
+// segundo barrido (hacia la info) reutiliza las mismas barras
+function swipe2(t){ if (Math.abs(t - T.s7[0]) < .6) swipe(t, T.s7[0]); else if (Math.abs(t - T.s8[0]) < .6) swipe(t, T.s8[0]); }
+
+window.DURATION = DURATION;
+window.ready = document.fonts.ready.then(() => Promise.all([...document.images].map(i => i.decode().catch(()=>{}))));
+setTime(0);
+</script>
+</body>
+</html>
