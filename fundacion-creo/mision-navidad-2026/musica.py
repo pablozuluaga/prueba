@@ -1,7 +1,7 @@
 # Caja musical de "Noche de paz" (F. X. Gruber, 1818 — dominio público), sintetizada.
 # Salida: musica.wav (28 s, estéreo 44.1 kHz)
 import numpy as np, wave, sys
-SR = 44100; DUR = 30.0; E = 0.285         # duración de una corchea (6/8, ~70 bpm)
+SR = 44100; DUR = 42.0; E = 0.41          # duración de una corchea (6/8, ~49 bpm, de canción de cuna)
 START = 0.35
 N = lambda n: 440.0 * 2 ** ((n - 69) / 12)
 C4,D4,E4,F4,G4,A4,B4,C5,D5,E5,F5 = 60,62,64,65,67,69,71,72,74,76,77

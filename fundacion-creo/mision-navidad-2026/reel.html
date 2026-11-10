@@ -200,7 +200,7 @@ function splitWords(el){
 // entrada palabra por palabra (sube, se desenfoca a nítido) y salida suave
 function words(id, t, tin, tout, o={}){
   const el = $(id); const ws = el.querySelectorAll('.w');
-  const stag = o.stagger ?? .07, dur = o.dur ?? .55, dy = o.dy ?? 60;
+  const stag = o.stagger ?? .1, dur = o.dur ?? .85, dy = o.dy ?? 60;
   const q = tout==null ? 0 : eInOut(prog(t, tout, tout+.35));
   ws.forEach((w,i) => {
     const p = prog(t, tin + i*stag, tin + i*stag + dur);
@@ -212,7 +212,7 @@ function words(id, t, tin, tout, o={}){
 }
 // entrada de un bloque completo
 function block(id, t, tin, tout, o={}){
-  const el = $(id); const dur = o.dur ?? .6;
+  const el = $(id); const dur = o.dur ?? .95;
   const p = prog(t, tin, tin+dur), pe = o.back ? eBack(p) : eOut(p);
   const q = tout==null ? 0 : eInOut(prog(t, tout, tout+.35));
   el.style.opacity = (eOut(p)*(1-q)).toFixed(3);
@@ -222,11 +222,11 @@ function block(id, t, tin, tout, o={}){
 }
 // tarjeta-foto: entra girando y queda "respirando"
 function card(id, t, tin, rot, o={}){
-  const el = $(id); const p = prog(t, tin, tin + (o.dur ?? .8));
+  const el = $(id); const p = prog(t, tin, tin + (o.dur ?? 1.3));
   const pe = eBack(p);
   const fromX = o.fromX ?? 0, fromY = o.fromY ?? 160;
   const breathe = Math.sin((t - tin) * 1.6) * .6;
-  el.style.opacity = eOut(prog(t, tin, tin+.3));
+  el.style.opacity = eOut(prog(t, tin, tin+.5));
   el.style.transform = `translate(${(1-pe)*fromX}px, ${(1-pe)*fromY}px) rotate(${lerp(rot + (o.rot0 ?? 8), rot, pe) + breathe}deg) scale(${lerp(.85,1,pe)})`;
   const img = el.querySelector('img');
   if (img && !o.noKB) img.style.transform = `scale(${1.04 + (t-tin)*.035})`;
@@ -288,7 +288,7 @@ const sw = [$('sw1'), $('sw2'), $('sw3')];
 sw[0].style.background = '#E5007D'; sw[1].style.background = '#8FD6F5'; sw[2].style.background = '#fff';
 function swipe(t, at){
   // cubre la pantalla justo en "at"
-  const d = .55;
+  const d = .95;
   const p = prog(t, at - d, at + d);
   sw.forEach((el,i) => {
     const pi = eInOut(clamp(p*1.25 - i*.1));
@@ -301,8 +301,8 @@ function swipe(t, at){
 }
 
 // ---------- línea de tiempo ----------
-const T = { s1:[0,3.6], s2:[3.6,6.6], s3:[6.6,9.4], s4:[9.4,12.2], s5:[12.2,15.2], s6:[15.2,17.9], s7:[17.9,21.2], s8:[21.2,30.0] };
-const DURATION = 30.0;
+const T = { s1:[0,4.8], s2:[4.8,9.0], s3:[9.0,13.2], s4:[13.2,17.4], s5:[17.4,21.8], s6:[21.8,26.2], s7:[26.2,31.2], s8:[31.2,42.0] };
+const DURATION = 42.0;
 
 ['s2-a','s2-b','s3-a','s3-b','s4-a','s4-b','s5-a','s5-b','s6-b','s7-b','s7-c','s8-cta','s1-navidad'].forEach(id => splitWords($(id)));
 
@@ -310,90 +310,90 @@ window.setTime = function(t){
   // 1 · intro
   if (sceneAlpha('s1', t, 0, T.s1[1], 0, .05)) {
     ornDefs.forEach((d,i) => {
-      const drop = eBack(prog(t, .05 + i*.08, .85 + i*.08));
+      const drop = eBack(prog(t, .05 + i*.12, 1.25 + i*.12));
       const sway = Math.sin(t*1.8 + i)*4*(1 - prog(t,0,0) );
       $('orn'+i).setAttribute('transform', `translate(${d.x},${lerp(-d.len-120,0,drop)}) rotate(${sway})`);
     });
-    const sp = eBack(prog(t,.15,.9));
+    const sp = eBack(prog(t,.2,1.4));
     $('bigstar').style.transform = `scale(${sp}) rotate(${t*30}deg)`;
     $('bigstar').style.opacity = clamp(sp);
-    block('s1-mision', t, .4, null, {dy:80, s0:.8, blur:true});
-    words('s1-navidad', t, .75, null, {dy:120, back:true, s0:.6});
-    block('s1-year', t, 1.15, null, {dy:40, blur:true});
-    block('s1-pill', t, 1.55, null, {dy:60, s0:.7, back:true});
-    const pulse = 1 + Math.max(0, Math.sin((t-2.2)*5))*.035*prog(t,2.2,2.3);
+    block('s1-mision', t, .55, null, {dy:80, s0:.8, blur:true});
+    words('s1-navidad', t, 1.05, null, {dy:120, back:true, s0:.6});
+    block('s1-year', t, 1.65, null, {dy:40, blur:true});
+    block('s1-pill', t, 2.25, null, {dy:60, s0:.7, back:true});
+    const pulse = 1 + Math.max(0, Math.sin((t-3.3)*4))*.035*prog(t,3.3,3.4);
     $('s1-pill').style.transform += ` scale(${pulse})`;
   }
   // 2 · niños
-  if (sceneAlpha('s2', t, T.s2[0], T.s2[1], 0, .4)) {
+  if (sceneAlpha('s2', t, T.s2[0], T.s2[1], 0, 1.1)) {
     $('s2-img').style.transform = `scale(${1.04 + (t-T.s2[0])*.04}) translateY(${-(t-T.s2[0])*8}px)`;
-    block('s2-a', t, T.s2[0]+.35, null, {dy:60, blur:true});
-    words('s2-b', t, T.s2[0]+.85, null, {back:true});
+    block('s2-a', t, T.s2[0]+0.525, null, {dy:60, blur:true});
+    words('s2-b', t, T.s2[0]+1.275, null, {back:true});
   }
   // 3 · procesión
-  if (sceneAlpha('s3', t, T.s3[0], T.s3[1], .4, .4)) {
+  if (sceneAlpha('s3', t, T.s3[0], T.s3[1], 1.1, 1.1)) {
     blurBgKB('s3', t, T.s3[0]);
-    card('s3-card', t, T.s3[0]-.15, -2.2, {fromX:-500, fromY:120, rot0:-10});
-    words('s3-a', t, T.s3[0]+.3, null);
-    words('s3-b', t, T.s3[0]+.75, null, {stagger:.06});
+    card('s3-card', t, T.s3[0]-.6, -2.2, {fromX:-500, fromY:120, rot0:-10});
+    words('s3-a', t, T.s3[0]+0.45, null);
+    words('s3-b', t, T.s3[0]+1.125, null, {stagger:0.084});
   }
   // 4 · banda
-  if (sceneAlpha('s4', t, T.s4[0], T.s4[1], .4, .4)) {
+  if (sceneAlpha('s4', t, T.s4[0], T.s4[1], 1.1, 1.1)) {
     blurBgKB('s4', t, T.s4[0]);
-    card('s4-card', t, T.s4[0]-.15, 2, {fromX:500, fromY:120, rot0:10});
-    words('s4-a', t, T.s4[0]+.3, null);
-    words('s4-b', t, T.s4[0]+.8, null, {back:true, s0:.6, dy:80});
+    card('s4-card', t, T.s4[0]-.6, 2, {fromX:500, fromY:120, rot0:10});
+    words('s4-a', t, T.s4[0]+0.45, null);
+    words('s4-b', t, T.s4[0]+1.2, null, {back:true, s0:.6, dy:80});
   }
   // 5 · collage
-  if (sceneAlpha('s5', t, T.s5[0], T.s5[1], .4, .4)) {
+  if (sceneAlpha('s5', t, T.s5[0], T.s5[1], 1.1, 1.1)) {
     blurBgKB('s5', t, T.s5[0]);
-    card('s5-c1', t, T.s5[0]-.15, -3, {fromX:-400, fromY:-200, rot0:-12});
-    card('s5-c2', t, T.s5[0]+.25, 3.5, {fromX:400, fromY:300, rot0:12});
-    words('s5-a', t, T.s5[0]+.65, null, {stagger:.06});
-    words('s5-b', t, T.s5[0]+1.15, null, {back:true, s0:.6, dy:80});
+    card('s5-c1', t, T.s5[0]-.6, -3, {fromX:-400, fromY:-200, rot0:-12});
+    card('s5-c2', t, T.s5[0]+0.375, 3.5, {fromX:400, fromY:300, rot0:12});
+    words('s5-a', t, T.s5[0]+0.975, null, {stagger:0.084});
+    words('s5-b', t, T.s5[0]+1.725, null, {back:true, s0:.6, dy:80});
   }
   // 6 · Colombia abraza al Chocó (zoom a la pancarta)
-  if (sceneAlpha('s6', t, T.s6[0], T.s6[1], .4, .1)) {
+  if (sceneAlpha('s6', t, T.s6[0], T.s6[1], 1.1, .1)) {
     blurBgKB('s6', t, T.s6[0]);
-    card('s6-card', t, T.s6[0]-.15, -1.5, {fromY:260, rot0:-6, noKB:true});
-    const z = eInOut(prog(t, T.s6[0]+.6, T.s6[1]));
+    card('s6-card', t, T.s6[0]-.6, -1.5, {fromY:260, rot0:-6, noKB:true});
+    const z = eInOut(prog(t, T.s6[0]+0.9, T.s6[1]));
     const img = $('s6-img');
     img.style.transformOrigin = '64% 24%';
     img.style.transform = `scale(${lerp(1.02, 2.05, z)})`;
-    block('s6-a', t, T.s6[0]+.4, null, {dy:60, blur:true});
-    words('s6-b', t, T.s6[0]+.9, null, {stagger:.08});
+    block('s6-a', t, T.s6[0]+0.6, null, {dy:60, blur:true});
+    words('s6-b', t, T.s6[0]+1.35, null, {stagger:0.112});
   }
   // 7 · ubicación
   if (sceneAlpha('s7', t, T.s7[0], T.s7[1], 0, .1)) {
     blurBgKB('s7', t, T.s7[0]);
-    block('s7-k', t, T.s7[0]+.2, null, {dy:30});
-    card('s7-card', t, T.s7[0]+.05, 0, {fromY:200, rot0:-6});
-    const pin = eBack(prog(t, T.s7[0]+.6, T.s7[0]+1.1));
-    const bob = Math.sin((t - T.s7[0])*4)*6*prog(t, T.s7[0]+1.1, T.s7[0]+1.3);
+    block('s7-k', t, T.s7[0]+0.3, null, {dy:30});
+    card('s7-card', t, T.s7[0]+0.075, 0, {fromY:200, rot0:-6});
+    const pin = eBack(prog(t, T.s7[0]+0.9, T.s7[0]+1.65));
+    const bob = Math.sin((t - T.s7[0])*4)*6*prog(t, T.s7[0]+1.65, T.s7[0]+1.95);
     $('s7-pin').style.transform = `translateY(${(1-pin)*-140 + bob}px) scale(${clamp(pin*1.0,0,1.2)})`;
     $('s7-pin').style.opacity = clamp(pin*3);
-    block('s7-a', t, T.s7[0]+.75, null, {dy:30});
-    words('s7-b', t, T.s7[0]+.9, null, {stagger:.07});
-    words('s7-c', t, T.s7[0]+1.4, null, {stagger:.05, dy:30});
+    block('s7-a', t, T.s7[0]+1.125, null, {dy:30});
+    words('s7-b', t, T.s7[0]+1.35, null, {stagger:0.098});
+    words('s7-c', t, T.s7[0]+2.1, null, {stagger:0.07, dy:30});
   }
   // 8 · cómo donar (se queda en pantalla hasta el final)
   if (sceneAlpha('s8', t, T.s8[0], DURATION+1, 0, 0)) {
     const a = T.s8[0];
     $('s8-virgen').style.transform = `scale(${1.02 + (t-a)*.012})`;
-    block('s8-card', t, a+.4, null, {dy:220, s0:.9, back:true, dur:.9});
-    block('s8-h',  t, a+.9,  null, {dy:40, blur:true});
-    block('s8-1',  t, a+1.5, null, {dy:30, dur:.8});
-    block('s8-div1', t, a+2.3, null, {dy:0});
-    block('s8-2',  t, a+2.5, null, {dy:30, dur:.7});
-    block('s8-3',  t, a+2.75, null, {dy:30, dur:.7});
-    block('s8-4',  t, a+3.0, null, {dy:40, s0:.85, back:true, dur:.8});
-    block('s8-5',  t, a+3.7, null, {dy:30, back:true, dur:.7});
-    block('s8-div2', t, a+4.3, null, {dy:0});
-    block('s8-6',  t, a+4.5, null, {dy:30, dur:.7});
-    block('s8-7',  t, a+4.8, null, {dy:50, s0:.6, back:true, dur:.8});
-    const pp = t > a+5.8 ? 1 + Math.max(0, Math.sin((t-a-5.8)*2.6))*.04 : 1;
+    block('s8-card', t, a+0.5, null, {dy:220, s0:.9, back:true, dur:1.2});
+    block('s8-h',  t, a+1.125,  null, {dy:40, blur:true});
+    block('s8-1',  t, a+1.875, null, {dy:30, dur:1.05});
+    block('s8-div1', t, a+2.875, null, {dy:0});
+    block('s8-2',  t, a+3.125, null, {dy:30, dur:.95});
+    block('s8-3',  t, a+3.438, null, {dy:30, dur:.95});
+    block('s8-4',  t, a+3.75, null, {dy:40, s0:.85, back:true, dur:1.05});
+    block('s8-5',  t, a+4.625, null, {dy:30, back:true, dur:.95});
+    block('s8-div2', t, a+5.375, null, {dy:0});
+    block('s8-6',  t, a+5.625, null, {dy:30, dur:.95});
+    block('s8-7',  t, a+6, null, {dy:50, s0:.6, back:true, dur:1.05});
+    const pp = t > a+7.25 ? 1 + Math.max(0, Math.sin((t-a-7.25)*2.6))*.04 : 1;
     $('s8-7').style.transform += ` scale(${pp})`;
-    words('s8-cta', t, a+5.6, null, {stagger:.1});
+    words('s8-cta', t, a+7, null, {stagger:0.14});
   }
   swipe(t, T.s2[0]);
   swipe2(t);
@@ -401,11 +401,11 @@ window.setTime = function(t){
   logo(t);
 };
 // segundo barrido (hacia la info) reutiliza las mismas barras
-function swipe2(t){ if (Math.abs(t - T.s7[0]) < .6) swipe(t, T.s7[0]); else if (Math.abs(t - T.s8[0]) < .6) swipe(t, T.s8[0]); }
+function swipe2(t){ if (Math.abs(t - T.s7[0]) < 1) swipe(t, T.s7[0]); else if (Math.abs(t - T.s8[0]) < 1) swipe(t, T.s8[0]); }
 
 function logo(t){
-  const p = eBack(prog(t, .1, .9));
-  $('logo').style.opacity = clamp(prog(t,.1,.5));
+  const p = eBack(prog(t, .1, 1.3));
+  $('logo').style.opacity = clamp(prog(t,.1,.7));
   $('logo').style.transform = `translateY(${(1-p)*-80}px) scale(${lerp(.85,1,p)})`;
 }
 window.DURATION = DURATION;
