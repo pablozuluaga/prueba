@@ -19,7 +19,7 @@ Reel vertical 1080×1920, 30 fps, 42 s, transiciones lentas (fundidos de 1.1 s y
 | 0–4.8 s | Intro de marca, adornos y nieve | *Misión* NAVIDAD 2026 · Recogemos donaciones |
 | 4.8–9 s | Niños frente al altar | *La Navidad* es compartir |
 | 9–13.2 s | Procesión | es llevar esperanza · DONDE MÁS SE NECESITA |
-| 13.2–17.4 s | Banda escolar | es ser herramientas · DE ALEGRÍA |
+| 13.2–17.4 s | Banda escolar | es ser mensajeros · DE ALEGRÍA |
 | 17.4–21.8 s | Collage misa + altar | para los niños y familias · DEL CHOCÓ |
 | 21.8–26.2 s | Procesión, zoom a la pancarta "Colombia abraza al Chocó" | *Juntos,* ABRACEMOS AL CHOCÓ |
 | 26.2–31.2 s | Fachada de la parroquia | Parroquia Nuestra Señora de la Pobreza · Corregimiento de Pie de Pepé · Medio Baudó, Chocó |
