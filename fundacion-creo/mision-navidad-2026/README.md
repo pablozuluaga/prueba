@@ -1,6 +1,6 @@
 # Fundación Creo · Misión Navidad 2026 — Reel
 
-Reel vertical 1080×1920, 30 fps, 28 s. Colores de marca: magenta, azul clarito y blanco.
+Reel vertical 1080×1920, 30 fps, 30 s. Logo de la fundación fijo arriba en todo el video. Colores de marca: magenta, azul clarito y blanco.
 
 | Archivo | Qué es |
 |---|---|
@@ -10,20 +10,20 @@ Reel vertical 1080×1920, 30 fps, 28 s. Colores de marca: magenta, azul clarito 
 | `render.js` | Renderiza `reel.html` fotograma a fotograma y codifica con ffmpeg |
 | `musica.py` | Sintetiza la pista de música |
 | `blur.py` | Genera los fondos desenfocados de `fotos/blur/` |
-| `fotos/` | Fotos enviadas desde el Chocó |
+| `fotos/` | Fotos del Chocó, logo de la fundación y la imagen de la Virgen |
 
 ## Guion
 
 | Tiempo | Escena | Texto |
 |---|---|---|
-| 0–3.6 s | Intro de marca, adornos y nieve | Fundación Creo · *Misión* NAVIDAD 2026 · Recogemos donaciones |
+| 0–3.6 s | Intro de marca, adornos y nieve | *Misión* NAVIDAD 2026 · Recogemos donaciones |
 | 3.6–6.6 s | Niños frente al altar | *La Navidad* es compartir |
 | 6.6–9.4 s | Procesión | es llevar esperanza · DONDE MÁS SE NECESITA |
 | 9.4–12.2 s | Banda escolar | es ser herramientas · DE ALEGRÍA |
 | 12.2–15.2 s | Collage misa + altar | para los niños y familias · DEL CHOCÓ |
 | 15.2–17.9 s | Procesión, zoom a la pancarta "Colombia abraza al Chocó" | *Juntos,* ABRACEMOS AL CHOCÓ |
 | 17.9–21.2 s | Fachada de la parroquia | Parroquia Nuestra Señora de la Pobreza · Corregimiento de Pie de Pepé · Medio Baudó, Chocó |
-| 21.2–28 s | Tarjeta de donación (queda fija hasta el final) | Especie y dinero · Bancolombia ahorros 20205780033 · NIT 830.133.398 · hasta el 14 de diciembre |
+| 21.2–30 s | Tarjeta de donación sobre la imagen de la Virgen (queda fija hasta el final) | Dinero y juguetes para niños de 0 a 12 años · Bancolombia ahorros 20205780033 · NIT 830.133.398 · hasta el 14 de diciembre |
 
 ## Volver a renderizar
 
